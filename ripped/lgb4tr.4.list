@@ -1,0 +1,10 @@
+> my domain is nimbletec.com. google admin is my provider. can you just give me the record
+1.  Log in to your Google Admin console at [https://admin.google.com](https://admin.google.com).
+2.  Click on "Apps" and then "Google Workspace".
+3.  Click on "Gmail" and then "Authentication".
+4.  Scroll down to the "DMARC" section and click on "Add setting".
+5.  In the "Domain" field, enter "nimbletec.com".
+6.  In the "Policy" field, select "None" to start with a monitoring-only policy.
+7.  In the "Aggregate report emails" field, enter the email address where you want to receive DMARC reports.
+8.  Click "Save".
+

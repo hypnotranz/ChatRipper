@@ -1,0 +1,9 @@
+> list the patterns of enterprise application architecture
+1.  Layered architecture: This pattern involves organizing the application into multiple layers, such as presentation, business logic, and data access layers, to separate concerns and improve maintainability.
+2.  Domain-driven design (DDD): This pattern involves modeling the domain and its business logic as the primary focus of the application, with the architecture and implementation tailored to support the domain.
+3.  Service-oriented architecture (SOA): This pattern involves organizing the application into modular services that communicate with each other using standard protocols, such as REST or SOAP.
+4.  Microservices architecture: This pattern involves breaking down the application into small, independent services that can be developed, deployed, and scaled independently.
+5.  Event-driven architecture (EDA): This pattern involves organizing the application around events, which are used to trigger actions or update state across different components of the application.
+6.  Hexagonal architecture: This pattern involves organizing the application into hexagonal layers, with the core business logic at the center and different interfaces, such as user interfaces or data stores, on the outer layers.
+7.  CQRS (Command Query Responsibility Segregation): This pattern separates the read and write operations of an application by using different models and storage for each.
+

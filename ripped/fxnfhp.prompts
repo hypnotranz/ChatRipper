@@ -1,0 +1,20 @@
+> give me a user table for an enterprise application
+> now give me the crud stored procs
+> now give me data services to call them in python
+> now give me the domain classes
+> now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+> now the mappers
+> now the rest service controllers
+> give me an upsert
+> the onus is still on me to know whether or not the user exists
+> list the patterns of enterprise application architecture
+> include all fowler patterns
+> give a sample implementation of each. domain classes can be user and user\_profile
+> continue
+> continue
+> how many tokens can codex do
+> what is the easiest way to deploy a service to the cloud
+> lets use aws
+> serverless
+> what is the easiest way to deploy a serverless aws lambda
+> cli

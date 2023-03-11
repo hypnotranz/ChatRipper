@@ -1,0 +1,5 @@
+> how to tel if its firewall
+1.  Disable any firewall or antivirus software temporarily and see if the issue is resolved. If it is, you can try adding an exception or allowing the necessary ports in the firewall or antivirus settings.
+2.  Check the firewall logs for any entries related to the blocked connection. The logs may provide information on which ports or protocols are being blocked and why.
+3.  Test the connection from a different network or device that does not have a firewall or antivirus software enabled. If the connection works from the other network or device, it is likely that your firewall or antivirus is blocking the connection.
+

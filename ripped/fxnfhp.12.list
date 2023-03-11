@@ -1,0 +1,15 @@
+> lets use aws
+1.  Sign up for an AWS account: Visit the AWS website and create an account if you haven't already.
+2.  Choose a deployment method: AWS offers a variety of deployment methods, including EC2 instances, Elastic Beanstalk, Lambda functions, and more. Choose the method that best fits your needs.
+3.  Prepare your service for deployment: Depending on your chosen deployment method, you may need to modify your code and configure your service to work with AWS.
+4.  Create an instance: If you're using EC2, create an instance and configure it with the necessary software and settings for your service.
+5.  Deploy your service: Use AWS tools, such as the AWS Management Console or AWS CLI, to deploy your service.
+6.  Test your service: Once your service is deployed, test it to make sure it's working as expected.
+7.  Scale your service: If needed, use AWS tools to scale your service to handle more traffic or users.
+1.  Create an Elastic Beanstalk environment: Use the Elastic Beanstalk console to create a new environment for your application.
+2.  Upload your application code: Use the Elastic Beanstalk console or the AWS CLI to upload your application code to your environment.
+3.  Configure your environment: Use the Elastic Beanstalk console or the AWS CLI to configure your environment with the necessary settings, such as the number of instances and load balancer settings.
+4.  Launch your environment: Use the Elastic Beanstalk console or the AWS CLI to launch your environment.
+5.  Test your application: Once your environment is launched, test your application by visiting the URL provided by Elastic Beanstalk.
+6.  Scale your environment: If needed, use the Elastic Beanstalk console or the AWS CLI to scale your environment to handle more traffic or users.
+

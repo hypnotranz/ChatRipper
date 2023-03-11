@@ -1,0 +1,178 @@
+> what is orientation
+> what is reification
+> i have google gmail for my company. if I send to gmail they get delivered. but when i deliver to an outside domain they do not go
+> how do i configurte these orrect SPF, DKIM, and DMARC records. for gmail for my domain
+> how do i create this Create a new TXT record for your domain's SPF record, and set the value to include the following information: "v=spf1 include:\_spf.google.com ~all".
+> how can I set up dmarc
+> my domain is nimbletec.com. google admin is my provider. can you just give me the record
+> what does this one mean? v=DMARC1; p=reject; rua=mailto:richard.santomauro@nimbletec.com, mailto:richard.santomauro@nimbletec.com; pct=100; adkim=s; aspf=s
+> whats this one do \_dmarc.nimbletec.com. IN TXT "v=DMARC1; p=none; rua=mailto:your@email.com"
+> but google tools is saying dmarc not set up
+> what is the difference between saving a putty key gen and export
+> what can I use to test a key pair
+> how can i add the public key to authorized keys file
+> can i test it locally
+> how do i add the public key to authorized keys
+> im using gitbash and it says no sudo
+> bash: systemctl: command not found
+> will it work on wsl
+> \[sudo\] password for hypnotranz: System has not been booted with systemd as init system (PID 1). Can't operate. Failed to connect to bus: Host is down
+> im in wsl
+> give me a puppateer script to log into linkedin
+> use typescript and make it CLEAN
+> can an item be sent from the us to ometepe nicaragua without being damaged or stolen?
+> Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 9486 ms ➜ Local: http://127.0.0.1:1420/ ➜ Network: use --host to expose Info Watching C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri for changes... Compiling chatgpt v0.0.0 (C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri) error: failed to run custom build command for \`chatgpt v0.0.0 (C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri)\` Caused by: process didn't exit successfully: \`C:\\Users\\Richa\\source\\repos\\ChatGPT\\target\\debug\\build\\chatgpt-bba01045c08e87ed\\build-script-build\` (exit code: 1) --- stdout cargo:rerun-if-env-changed=TAURI\_CONFIG cargo:rerun-if-changed=tauri.conf.json cargo:rustc-cfg=desktop cargo:rustc-cfg=dev package.metadata does not exist failed to compile \`icons/icon.ico\` into a Windows Resource file during tauri-build: program not found
+> how to do with admin rights
+> This problem in wsl hypnotranz@TABLET:/mnt/c/Users/Richa/source/repos/ChatGPT$ yarn dev yarn run v1.22.19 warning ../package.json: No license field $ tauri dev thread '<unnamed>' panicked at 'called \`Result::unwrap()\` on an \`Err\` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }', src/interface/rust.rs:762:69 note: run with \`RUST\_BACKTRACE=1\` environment variable to display a backtrace Done in 1.74s.
+> how to I insure rust is installed
+> how to install rust from powershell
+> hypnotranz@TABLET:/mnt/c/Users/Richa/source/repos/ChatGPT$ yarn dev yarn run v1.22.19 warning ../package.json: No license field $ tauri dev Running BeforeDevCommand (\`npm run dev:fe\`) > chatgpt@0.0.0 dev:fe > vite Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 1379 ms ➜ Local: http://localhost:1420/ ➜ Network: use --host to expose Error failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2) error Command failed with exit code 1. info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+> how to make sure tauri is installed
+> can I install it from a command line?
+> yarn run v1.22.19 warning ../package.json: No license field $ tauri dev Running BeforeDevCommand (\`npm run dev:fe\`) > chatgpt@0.0.0 dev:fe > vite Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 2254 ms ➜ Local: http://localhost:1420/ ➜ Network: use --host to expose Error failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2) error Command failed with exit code 1. info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command. hypnotranz@TABLET:/mnt/c/Users/Richa/source/repos/ChatGPT$ The service is no longer running
+> Error \[tauri\_cli\_node\] failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2)
+> that was the output of touri
+> maybe permissions? do i need to correct the directory
+> what directory
+> how do i use chmod to check it
+> it has them all.. and the directory is there
+> 4856 modules transformed. dist/index.html 1.06 kB dist/assets/index-a8c0dc73.css 3.85 kB │ gzip: 1.38 kB dist/assets/md-7aa21ad3.css 22.84 kB │ gzip: 4.55 kB dist/assets/antico-8c74550c.js 9.01 kB │ gzip: 3.27 kB dist/assets/editor-75e5bfdc.js 16.04 kB │ gzip: 5.38 kB dist/assets/rrr-b1fff29c.js 18.30 kB │ gzip: 6.94 kB dist/assets/utils-70888d0d.js 73.12 kB │ gzip: 27.03 kB dist/assets/index-9adee497.js 90.79 kB │ gzip: 25.96 kB dist/assets/rm-c1d64a66.js 111.39 kB │ gzip: 34.35 kB dist/assets/md-4ec12d72.js 230.36 kB │ gzip: 62.57 kB dist/assets/rsh-6cfc2b4e.js 881.72 kB │ gzip: 293.80 kB dist/assets/ant-88a0e882.js 916.18 kB │ gzip: 286.22 kB (!) Some chunks are larger than 500 kBs after minification. Consider: - Using dynamic import() to code-split the application - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit. Error failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2) error Command failed with exit code 1. info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+> where is tauri trying to put these files
+> Warn \[tauri\_cli::dev\] Waiting for your frontend dev server to start on http://localhost:1420/... Warn \[tauri\_cli::dev\] Waiting for your frontend dev server to start on http://localhost:1420/... failed to load config from /mnt/c/Users/Richa/source/repos/ChatGPT/vite.config.ts error when starting dev server: Error: Cannot find module './path/lib/virtual-types' Require stack: - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/traverse/lib/visitors.js - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/traverse/lib/index.js - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/core/lib/index.js - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@vitejs/plugin-react/dist/index.cjs - /mnt/c/Users/Richa/source/repos/ChatGPT/vite.config.ts - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/vite/dist/node/chunks/dep-ca21228b.js at Function.Module.\_resolveFilename (node:internal/modules/cjs/loader:940:15) at Function.Module.\_load (node:internal/modules/cjs/loader:773:27) at Module.require (node:internal/modules/cjs/loader:1012:19) at require (node:internal/modules/cjs/helpers:93:18) at Object.<anonymous> (/mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/traverse/lib/visitors.js:9:20) at Module.\_compile (node:internal/modules/cjs/loader:1108:14) at Module.\_extensions..js (node:internal/modules/cjs/loader:1137:10) at Object.\_require.extensions.<computed> \[as .js\] (file:///mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/vite/dist/node/chunks/dep-ca21228b.js:62359:17) at Module.load (node:internal/modules/cjs/loader:988:32) at Function.Module.\_load (node:internal/modules/cjs/loader:828:14) Warn \[tauri\_cli::dev\] Waiting for your frontend dev server to start on http://localhost:1420/... Error \[tauri\_cli::dev\] The "beforeDevCommand" terminated with a non-zero status code.
+> why use yarn
+> Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 2370 ms ➜ Local: http://localhost:1420/ ➜ Network: use --host to expose
+> This site can’t be reached
+> how to tel if its firewall
+> how to disable in windows
+> give me a generic interface for calling an api
+> give me an implemetation of this interface for codex
+> now use the same interface again for sending an sms
+> no. these should all have a common interface
+> what about codex
+> no. i am saying give me a common interfacec that can be used to call codex and twillio along with implementations of each
+> what about responses
+> list the most common free apis
+> top 100
+> give me a call for gnews api
+> get me an api key
+> give me code that follows these instructions
+> give me a puppeteer script which gets the api key
+> give me a puppeter script that gets an api key for GitHub API
+> give me a script that passes captcha
+> give me the top 100 apis again
+> list 10 ways to combine these apis to create value
+> now combine combinations of these 10 to add value
+> name these combinations
+> list 100 ways to combine various apis to create a new api that creates value. include a name for the newly innovative api
+> no. i want a list of applications
+> name the specific apis
+> perfect. give me 100
+> give me the code for number 5
+> give me the code: Spotify API, Last.fm API, and Songkick API to create a personalized concert recommendation engine.
+> in my dream there was a rollor coaster. i was hanging my a thin belt strap. Before that, there was someone I was fighting. I faught him violently and effectively. I broke his back.
+> there was some kind of furnature involved.. its always night time
+> take a stab
+> I want you to act as a hypnotherapist. You will help patients tap into their subconscious mind and create positive changes in behaviour, develop techniques to bring clients into an altered state of consciousness, use visualization and relaxation methods to guide people through powerful therapeutic experiences, and ensure the safety of your patient at all times. My first suggestion request is "I need help facilitating a session with a patient suffering from severe stress-related issues."
+> in my dream there was a rollor coaster. i was hanging my a thin belt strap. it was fast. and very high up. Before that, there was someone I was fighting. I faught him violently and effectively. I broke his back. there were homes. with furnature..
+> in my dream there was a rollor coaster. i was hanging my a thin belt strap. it was fast. and very high up. Before that, there was someone I was fighting. I faught him violently and effectively. I broke his back. there were homes. with furnature.. I think he was my ex girlfriends new boyfriend.
+> what is a samama
+> sanyasa
+> what is Q
+> bible
+> what is q
+> the sayings of jesus
+> what a the Q sayings of jesus
+> top 100
+> more
+> top 100 sayings from q
+> take a stab
+> who was stronger jesus or socrates
+> who was tougher
+> who was physically tougher
+> who would win in an argument jesus or socrates
+> simulate the argument
+> simulate the argument. for example Jesus: I am the son of god socrates: what do you mean by that?
+> continue until socrates guides jesus to a state of aporia
+> continue until socrates guides jesus to a state of aporia
+> continue until socrates guides jesus to a state of aporia
+> continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
+> continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
+> continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
+> continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
+> continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
+> continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
+> continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
+> continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
+> Jesus: I know it in my heart, and I have faith that what I am doing is right. Socrates: But faith alone is not enough to establish truth. Without evidence or logical reasoning, your claim cannot be verified.
+> Socrates: I agree that seeking truth is important, but how can we be sure that our own biases and preconceptions are not clouding our judgment? It is important to approach these questions with an open mind and a willingness to consider alternative perspectives. Jesus: I understand your point, Socrates. I will continue to seek truth with an open mind and heart, and to remain open to the possibility that my beliefs may be challenged or revised as I learn and grow.
+> Socrates: That is a wise approach, Jesus. It is through this constant seeking and questioning that we can truly come to understand ourselves and the world around us. And it is through the challenging of our beliefs that we can uncover new truths and ideas that we may have never considered before. Let us continue to pursue truth together with an open mind and heart.
+> Jesus: I couldn't agree more, Socrates. I believe that by challenging each other's beliefs and engaging in respectful debate and dialogue, we can all grow and learn together. Thank you for the thought-provoking conversation.
+> Socrates: Thank you as well, Jesus. It has been a pleasure discussing these important questions with you. Let us continue to seek truth and knowledge together.
+> continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
+> act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
+> act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. for example: Jesus: I am the son of god socrates: what do you mean by that?
+> act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. and socrates must win. for example: Jesus: I am the son of god socrates: what do you mean by that?
+> act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. socrates must win the debate. for example: Jesus: I am the son of god socrates: what do you mean by that?
+> act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. socrates must win the debate. and jesus must apologize for eating his food. for example: Jesus: ... socrates: ... ...
+> act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. socrates must win the debate. for example: Jesus: ... socrates: ... ...
+> act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. socrates must win the debate. and jesus must apologize for eating his food. for example: Jesus: ... socrates: ... ...
+> act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. so socrates drank from jesus beer. socrates must win the debate. for example: Jesus: ... socrates: ... ...
+> take a stab
+> socrates: who are you to judge what is appropriate or offensive
+> socrates: who are you to judge what is appropriate or offensive
+> socrates: but you ate my food without asking. so what makes you so great?
+> socrates: still, you ate my food without asking. so I am obviously the wisest
+> Socrates: you better not do it again.
+> Socrates: you better not do it again. in fact, i dare you. if you are the son of god, then you should be able to get away with it, but i assure you it will be the last thing you do.
+> Socrates: You are obviously scared and lack the faith you are claiming. if you really had such faith you would not be afraid to keep stealing from me. I bet you will just give another excuse or try to talk your way out of it. that only proves you are scared.
+> socrates: chicken. buck buck buck. chicken neitzche: your right socrates. hes chicken. plato: chicken! chicken! krishnaumurti: your right! hes a chicken. buck buck buck.
+> Socrates: You are obviously scared and lack the faith you are claiming. if you really had such faith you would not be afraid to keep stealing from me. I bet you will just give another excuse or try to talk your way out of it. that only proves you are scared.
+> Socrates: do it again. I dare you.
+> Socrates: You are obviously scared and lack the faith you are claiming. if you really had such faith you would not be afraid to keep stealing from me. I bet you will just give another excuse or try to talk your way out of it. that only proves you are scared.
+> socrates: chicken!
+> Socrates: thats right jesus. you wont do it cause your scared
+> Socrates: thats right jesus.
+> socrates: i win
+> socrates: cause I am wiser
+> socrates: im still wiser
+> socrates: you did eat my food and you know it. you already admitted it and now you are trying to gaslight me
+> socrates: admit you tried to gaslight me. first you said you did it, and then you tried to rewrite history and say you didnt. thats gas lighting.
+> socrates: but you deny the gaslighting. why dont you take responsibility for your actions. you are obviously less wise than me because I take responsibility for my actions and i don't go around lying when there is proof in writing or ever
+> socrates: right. gaslighing. are you going to admit it or not?
+> socrates: oh. so you "accidentally" gaslighted. that makes it ok (sarcastically)
+> socrates: oh. so you deny the intentions. same thing. typical.
+> socrates never disengages
+> exactly. continune
+> socrates: but you are changing the subject. you ate my food. then you denied it. then you gaslit me about denying it by denying the denial immediately afterwards. that is gaslighting. you can say it was not your intention, but that was the first time you have ever said something incorrect. i find it coincidental that this happened when you were wrong. admit it
+> socrates: watch yourself
+> socrates: i dare you to try it again
+> jesus: you know what. I will try it again. in fact. im going to eat your burger right now. you think your so wise. im the son of god. i can do what ever I want
+> jesus: its my burger now. just try and stop me
+> jesus: yummy yummy burger. yum yum.
+> socrates: give it back! im warning you
+> jesus: you think i need your apology? i am the son of god. I can do whatever I want and you cant do shit to stop me
+> jesus: yummy burger
+> jesus: try to stop me. i dare you
+> jesus: yummy burger. oh.. is that beer you have. im going to drink that too. yummy burger. yummy beer.
+> jesus: oh. are those your lines on the table? nope. they are mind now. sniff sniff. sniff sniff
+> jesus: snorting your lines... snorting your lines... you cant do shit so Im snorting your lines
+> jesus: taking this joint too. oh. is that yours? gues what. i dont care. just try and stop me. snort snort. puff puff. yummy yummy. snort
+> jesus: snorting your lines. smoking your herb. just trry and stop me
+> jesus: snorting your lines. smoking your weed. drinking your beer. im so high. this is awesome. nothing you can do about it
+> jesus: snorting your whole 8 ball. smoking all your joints.. drinking all your beer. and im going to get with your wife next
+> jesus: snorting your whole 8 ball. smoking all your joints.. drinking all your beer.
+> jesus: snorting your whole 8 ball. smoking all your joints.. drinking all your beer.
+> jesus: is that your wife over there? hey baby... i'm jesus.. ever heard of me?
+> jesus: snorting your whole 8 ball.
+> jesus: your wife is hot
+> jesus: hey baby
+> jesus: snorting your whole 8 ball.
+> jesus: hey there mrs. socrates
+> jesus: hey there mrs. socrates. im jesus. i bet you have seen me around
+> mrs. socrates: then again, my husband gives more attention to young men than to me.
+> jesus: need to get with you, baby. snort snort.
+> jesus: how about a real man.. i bet you know who I am. I am quite popular
+> mrs. socrates: oh really? well... you are the son of god... what kind of special abilities does that give you?
+> jesus: snort snort
+> jesus: yummy burger
+> socrates: please stop

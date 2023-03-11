@@ -1,0 +1,10 @@
+> get me an api key
+1.  Go to the GNews website: [https://gnews.io/](https://gnews.io/)
+2.  Click on "Sign up" in the top right corner of the page.
+3.  Fill in the sign-up form and click on "Sign up".
+4.  Verify your email address by clicking on the verification link that is sent to your email.
+5.  Go to your account settings and navigate to the API Keys section.
+6.  Click on "Create new API key".
+7.  Follow the instructions to generate a new API key.
+8.  Copy the API key and use it in your API requests.
+

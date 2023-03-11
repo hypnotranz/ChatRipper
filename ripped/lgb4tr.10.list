@@ -1,0 +1,5 @@
+> im using gitbash and it says no sudo
+1.  Open Git Bash as an administrator. You can do this by right-clicking on the Git Bash icon and selecting "Run as administrator".
+2.  Run the following command to open a new Git Bash shell with elevated privileges:
+3.  Type in the command you want to run with elevated privileges. For example, if you want to run a command that requires administrator permissions, you can prefix the command with `sudo`.
+

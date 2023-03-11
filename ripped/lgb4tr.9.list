@@ -1,0 +1,12 @@
+> how do i add the public key to authorized keys
+1.  Open a terminal or command prompt on the machine where the public key is stored.
+2.  Copy the public key text to your clipboard. If you have saved the public key as a file, you can use the following command to display the contents of the file:
+3.  Connect to the remote server or local machine where you want to add the public key.
+4.  Navigate to the .ssh directory on the remote server or local machine. If the directory does not exist, you can create it with the following command:
+5.  Open the authorized\_keys file in a text editor, using the following command:
+6.  Paste the public key text from your clipboard into the authorized\_keys file on a new line.
+7.  Save the changes to the authorized\_keys file and exit the text editor.
+8.  Set the correct permissions for the authorized\_keys file with the following command:
+9.  Optionally, you can disable password authentication in the sshd configuration file on the remote server or local machine to further secure your SSH connection. To do this, set the following configuration parameter to "no" in the sshd\_config file:
+10.  Restart the sshd service on the remote server or local machine for the changes to take effect:
+

@@ -1,0 +1,6 @@
+> what is the easiest way to deploy a serverless aws lambda using cli
+1.  Write your Lambda function code and package it in a zip file. Make sure you include any dependencies or libraries that your function needs.
+2.  Open a terminal or command prompt and ensure that you have the AWS CLI installed and configured with your AWS account credentials.
+3.  Use the AWS CLI to create a new Lambda function by running the following command:
+4.  Once your function is created, you can invoke it using the AWS CLI by running a command like this:
+
