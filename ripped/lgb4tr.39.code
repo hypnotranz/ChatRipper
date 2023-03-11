@@ -1,0 +1,5 @@
+# Generated from prompt: > what about codex
+
+export interface CodexService {
+  generateCode(prompt: string): Promise<string>;
+}

@@ -1,0 +1,29 @@
+# Generated from prompt: > give a sample implementation of each. domain classes can be user and user\_profile
+
+class UserMapper:
+    def __init__(self, db):
+        self.db = db
+
+    def find_by_id(self, user_id):
+        # Perform a query to retrieve a user by ID
+        return User(user_id, username, password)
+
+    def insert(self, user):
+        # Perform an insert operation to save the user to the database
+
+    def update(self, user):
+        # Perform an update operation to update the user in the database
+
+class UserProfileMapper:
+    def __init__(self, db):
+        self.db = db
+
+    def find_by_user_id(self, user_id):
+        # Perform a query to retrieve a user profile by user ID
+        return UserProfile(user_profile_id, user_id, first_name, last_name, email)
+
+    def insert(self, user_profile):
+        # Perform an insert operation to save the user profile to the database
+
+    def update(self, user_profile):
+        # Perform an update operation to update the user profile in the database

@@ -1,0 +1,5 @@
+# Generated from prompt: > Walk me through hello world python rest service soup to nuts
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'

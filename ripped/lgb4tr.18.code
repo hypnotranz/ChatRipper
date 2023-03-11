@@ -1,0 +1,3 @@
+# Generated from prompt: > bash: systemctl: command not found
+
+net stop sshd && net start sshd

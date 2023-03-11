@@ -1,0 +1,14 @@
+# Generated from prompt: > what about responses
+
+interface ApiClient {
+  get<T>(url: string, params?: Record<string, unknown>): Promise<ApiResponse<T>>;
+  post<T>(url: string, data?: unknown, params?: Record<string, unknown>): Promise<ApiResponse<T>>;
+  put<T>(url: string, data?: unknown, params?: Record<string, unknown>): Promise<ApiResponse<T>>;
+  delete<T>(url: string, params?: Record<string, unknown>): Promise<ApiResponse<T>>;
+}
+
+interface ApiResponse<T> {
+  status: number;
+  data: T;
+  headers: Record<string, string>;
+}

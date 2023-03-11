@@ -1,0 +1,25 @@
+# Generated from prompt: > now the mappers
+
+from datetime import datetime
+
+class CreateUserMapper:
+    @staticmethod
+    def to_domain_model(input_model):
+        return User(
+            None,
+            input_model.username,
+            input_model.password,
+            input_model.first_name,
+            input_model.last_name,
+            input_model.email,
+            input_model.phone_number,
+            input_model.department_id,
+            input_model.role_id,
+            True,
+            datetime.now(),
+            datetime.now()
+        )
+
+    @staticmethod
+    def to_output_model(domain_model):
+        return CreateUserOutputModel(domain_model.user_id)

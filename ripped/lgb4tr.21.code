@@ -1,0 +1,5 @@
+# Generated from prompt: > im in wsl
+
+sudo service service-name start
+sudo service service-name stop
+sudo service service-name restart

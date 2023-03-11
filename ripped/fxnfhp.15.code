@@ -1,0 +1,6 @@
+# Generated from prompt: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+
+class LoginInputModel:
+    def __init__(self, username, password):
+        self.username = username
+        self.password = password

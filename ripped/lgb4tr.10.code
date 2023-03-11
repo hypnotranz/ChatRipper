@@ -1,0 +1,3 @@
+# Generated from prompt: > can i test it locally
+
+ssh -i private_key_file_name user@localhost

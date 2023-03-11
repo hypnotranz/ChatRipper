@@ -1,0 +1,7 @@
+# Generated from prompt: > no. these should all have a common interface
+
+interface Service {
+  name: string;
+  callApi(endpoint: string, data: any): Promise<any>;
+  sendSMS(phoneNumber: string, message: string): Promise<any>;
+}

@@ -1,0 +1,3 @@
+# Generated from prompt: > what is the easiest way to deploy a serverless aws lambda using cli
+
+aws lambda create-function --function-name MyFunction --runtime python3.8 --zip-file fileb://function.zip --handler lambda_function.handler --role arn:aws:iam::123456789012:role/MyLambdaRole

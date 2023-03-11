@@ -1,0 +1,5 @@
+# Generated from prompt: > im in wsl
+
+systemctl --user start service-name
+systemctl --user stop service-name
+systemctl --user restart service-name

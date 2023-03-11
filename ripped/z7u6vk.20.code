@@ -1,0 +1,10 @@
+# Generated from prompt: > now the mappers
+
+class LoginMapper:
+    @staticmethod
+    def to_domain_model(input_model):
+        return (input_model.username, input_model.password)
+
+    @staticmethod
+    def to_output_model(token):
+        return LoginOutputModel(token)

@@ -1,0 +1,33 @@
+# Generated from prompt: > now use the same interface again for sending an sms
+
+interface SmsService {
+  sendSms(phoneNumber: string, message: string): Promise<boolean>;
+}
+
+class TwilioSmsService implements SmsService {
+  private accountSid: string;
+  private authToken: string;
+  private fromNumber: string;
+  private client: Twilio.Twilio;
+
+  constructor(accountSid: string, authToken: string, fromNumber: string) {
+    this.accountSid = accountSid;
+    this.authToken = authToken;
+    this.fromNumber = fromNumber;
+    this.client = require('twilio')(accountSid, authToken);
+  }
+
+  async sendSms(phoneNumber: string, message: string): Promise<boolean> {
+    try {
+      const result = await this.client.messages.create({
+        body: message,
+        from: this.fromNumber,
+        to: phoneNumber,
+      });
+      return true;
+    } catch (err) {
+      console.error(`Failed to send SMS to ${phoneNumber}: ${err}`);
+      return false;
+    }
+  }
+}

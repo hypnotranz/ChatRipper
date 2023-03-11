@@ -1,0 +1,41 @@
+# Generated from prompt: > give me a generic interface for calling an api
+
+interface ApiResponse<T> {
+  data: T;
+  status: number;
+  message: string;
+}
+
+interface ApiError {
+  status: number;
+  message: string;
+}
+
+async function callApi<T>(
+  endpoint: string,
+  method: 'GET' | 'POST' | 'PUT' | 'DELETE',
+  body?: Record<string, unknown>
+): Promise<ApiResponse<T> | ApiError> {
+  const response = await fetch(endpoint, {
+    method,
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+
+  const data = await response.json();
+
+  if (response.ok) {
+    return {
+      data,
+      status: response.status,
+      message: 'Success',
+    };
+  } else {
+    return {
+      status: response.status,
+      message: data.message || 'An error occurred',
+    };
+  }
+}

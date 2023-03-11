@@ -1,0 +1,29 @@
+# Generated from prompt: > use typescript and make it CLEAN
+
+import puppeteer, { Browser, Page } from 'puppeteer';
+
+async function login(): Promise<void> {
+  const browser: Browser = await puppeteer.launch({ headless: false });
+  const page: Page = await browser.newPage();
+  await page.goto('https://www.linkedin.com/login');
+
+  const emailInput: string = '#username';
+  const passwordInput: string = '#password';
+
+  await page.type(emailInput, 'your-email@example.com');
+  await page.type(passwordInput, 'your-password');
+
+  const submitButton: string = '[data-litms-control-urn="login-submit"]';
+  await Promise.all([
+    page.waitForNavigation(),
+    page.click(submitButton),
+  ]);
+
+  console.log('Logged in to LinkedIn');
+
+  // Do additional actions or navigate to other pages as needed.
+
+  await browser.close();
+}
+
+login();

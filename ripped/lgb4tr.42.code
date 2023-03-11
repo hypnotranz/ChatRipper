@@ -1,0 +1,50 @@
+# Generated from prompt: > no. i am saying give me a common interfacec that can be used to call codex and twillio along with implementations of each
+
+// Implementation for Codex
+class CodexMessageSender implements MessageSender {
+  private apiUrl: string;
+  private apiKey: string;
+
+  constructor(apiUrl: string, apiKey: string) {
+    this.apiUrl = apiUrl;
+    this.apiKey = apiKey;
+  }
+
+  async sendMessage(recipient: string, message: string): Promise<void> {
+    const url = `${this.apiUrl}/messages/send`;
+    const data = { recipient, message, apiKey: this.apiKey };
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    });
+    if (!response.ok) {
+      throw new Error(`Failed to send message to ${recipient}`);
+    }
+  }
+}
+
+// Implementation for Twilio
+class TwilioMessageSender implements MessageSender {
+  private accountSid: string;
+  private authToken: string;
+  private fromNumber: string;
+
+  constructor(accountSid: string, authToken: string, fromNumber: string) {
+    this.accountSid = accountSid;
+    this.authToken = authToken;
+    this.fromNumber = fromNumber;
+  }
+
+  async sendMessage(recipient: string, message: string): Promise<void> {
+    const client = require('twilio')(this.accountSid, this.authToken);
+    const response = await client.messages.create({
+      body: message,
+      from: this.fromNumber,
+      to: recipient,
+    });
+    if (response.errorCode) {
+      throw new Error(`Failed to send message to ${recipient}`);
+    }
+  }
+}

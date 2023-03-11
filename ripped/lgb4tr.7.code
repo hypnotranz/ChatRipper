@@ -1,0 +1,3 @@
+# Generated from prompt: > how can i add the public key to authorized keys file
+
+touch ~/.ssh/authorized_keys

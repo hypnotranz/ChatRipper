@@ -1,0 +1,27 @@
+# Generated from prompt: > give a sample implementation of each. domain classes can be user and user\_profile
+
+class User:
+    def __init__(self, user_id, username, password):
+        self.user_id = user_id
+        self.username = username
+        self.password = password
+
+    def save(self):
+        if self.user_id is None:
+            # Perform an insert operation
+        else:
+            # Perform an update operation
+
+class UserProfile:
+    def __init__(self, user_profile_id, user_id, first_name, last_name, email):
+        self.user_profile_id = user_profile_id
+        self.user_id = user_id
+        self.first_name = first_name
+        self.last_name = last_name
+        self.email = email
+
+    def save(self):
+        if self.user_profile_id is None:
+            # Perform an insert operation
+        else:
+            # Perform an update operation

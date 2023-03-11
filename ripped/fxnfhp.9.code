@@ -1,0 +1,10 @@
+# Generated from prompt: > now give me data services to call them in python
+
+import pyodbc
+
+def delete_user(user_id):
+    connection = pyodbc.connect('DRIVER={SQL Server};SERVER=<server_name>;DATABASE=<database_name>;UID=<username>;PWD=<password>')
+    cursor = connection.cursor()
+    cursor.execute("EXEC spDeleteUser ?", (user_id,))
+    connection.commit()
+    connection.close()

@@ -1,0 +1,9 @@
+# Generated from prompt: > give me a call for gnews api
+
+const API_KEY = 'your_api_key_here'; // replace with your own API key
+const url = `https://gnews.io/api/v4/top-headlines?token=${API_KEY}&lang=en`;
+
+fetch(url)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error(error));

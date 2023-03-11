@@ -1,0 +1,14 @@
+# Generated from prompt: > now the rest service controllers
+
+from flask import request
+from flask_restful import Resource
+from myapp.domain.user import User
+from myapp.models.user import UpdateUserInputModel
+from myapp.mappers.user import UpdateUserMapper
+
+class UserController(Resource):
+    def put(self, user_id):
+        input_model = UpdateUserInputModel(**request.get_json())
+        domain_model = UpdateUserMapper.to_domain_model(user_id, input_model)
+        User.update(domain_model)
+        return None, 204

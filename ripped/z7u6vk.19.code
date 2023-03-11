@@ -1,0 +1,19 @@
+# Generated from prompt: > now the mappers
+
+class DeactivateUserMapper:
+    @staticmethod
+    def to_domain_model(input_model):
+        return User(
+            input_model.user_id,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            None,
+            False,
+            None,
+            datetime.now()
+        )

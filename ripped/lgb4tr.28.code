@@ -1,0 +1,3 @@
+# Generated from prompt: > maybe permissions? do i need to correct the directory
+
+chmod -R u+w /path/to/directory

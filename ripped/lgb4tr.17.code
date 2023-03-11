@@ -1,0 +1,3 @@
+# Generated from prompt: > im using gitbash and it says no sudo
+
+runas /user:Administrator "C:\Program Files\Git\bin\bash.exe"

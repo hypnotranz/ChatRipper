@@ -1,0 +1,41 @@
+# Generated from prompt: > what about responses
+
+import axios from 'axios';
+
+class CodexApiClient implements ApiClient {
+  async get<T>(url: string, params?: Record<string, unknown>): Promise<ApiResponse<T>> {
+    const response = await axios.get<T>(url, { params });
+    return {
+      status: response.status,
+      data: response.data,
+      headers: response.headers,
+    };
+  }
+
+  async post<T>(url: string, data?: unknown, params?: Record<string, unknown>): Promise<ApiResponse<T>> {
+    const response = await axios.post<T>(url, data, { params });
+    return {
+      status: response.status,
+      data: response.data,
+      headers: response.headers,
+    };
+  }
+
+  async put<T>(url: string, data?: unknown, params?: Record<string, unknown>): Promise<ApiResponse<T>> {
+    const response = await axios.put<T>(url, data, { params });
+    return {
+      status: response.status,
+      data: response.data,
+      headers: response.headers,
+    };
+  }
+
+  async delete<T>(url: string, params?: Record<string, unknown>): Promise<ApiResponse<T>> {
+    const response = await axios.delete<T>(url, { params });
+    return {
+      status: response.status,
+      data: response.data,
+      headers: response.headers,
+    };
+  }
+}

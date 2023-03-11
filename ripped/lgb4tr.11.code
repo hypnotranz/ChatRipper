@@ -1,0 +1,3 @@
+# Generated from prompt: > how do i add the public key to authorized keys
+
+cat path/to/public_key.pub

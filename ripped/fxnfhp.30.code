@@ -1,0 +1,21 @@
+# Generated from prompt: > give a sample implementation of each. domain classes can be user and user\_profile
+
+class UserRowDataGateway:
+    def __init__(self, db):
+        self.db = db
+
+    def __init__(self, user_id):
+        # Perform a query to retrieve a row in the users table by ID
+
+    def save(self):
+        # Perform an update operation to update the row in the users table
+
+class UserProfileRowDataGateway:
+    def __init__(self, db):
+        self.db = db
+
+    def __init__(self, user_profile_id):
+        # Perform a query to retrieve a row in the user_profiles table by ID
+
+    def save(self):
+        # Perform an update operation to update the row in

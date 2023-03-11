@@ -1,0 +1,3 @@
+# Generated from prompt: > how to I insure rust is installed
+
+rustc --version

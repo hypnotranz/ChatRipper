@@ -1,0 +1,8 @@
+# Generated from prompt: > now give me the crud stored procs
+
+CREATE PROCEDURE spGetUser 
+    @user_id int
+AS
+BEGIN
+    SELECT * FROM users WHERE user_id = @user_id
+END

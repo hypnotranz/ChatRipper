@@ -1,0 +1,14 @@
+# Generated from prompt: > now the rest service controllers
+
+from flask import request
+from flask_restful import Resource
+from myapp.domain.user import User
+from myapp.models.user import DeactivateUserInputModel
+from myapp.mappers.user import DeactivateUserMapper
+
+class UserController(Resource):
+    def delete(self):
+        input_model = DeactivateUserInputModel(**request.get_json())
+        domain_model = DeactivateUserMapper.to_domain_model(input_model)
+        User.deactivate(domain_model)
+        return None, 204

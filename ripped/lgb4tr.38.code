@@ -1,0 +1,27 @@
+# Generated from prompt: > no. these should all have a common interface
+
+import Twilio from 'twilio';
+
+class TwilioService implements Service {
+  private client: Twilio;
+
+  constructor(private readonly accountSid: string, private readonly authToken: string) {
+    this.client = new Twilio(accountSid, authToken);
+  }
+
+  public name = 'Twilio';
+
+  public async callApi(endpoint: string, data: any) {
+    throw new Error('Endpoint not supported for Twilio API');
+  }
+
+  public async sendSMS(phoneNumber: string, message: string) {
+    const result = await this.client.messages.create({
+      body: message,
+      from: '<your Twilio phone number>',
+      to: phoneNumber,
+    });
+
+    return result;
+  }
+}

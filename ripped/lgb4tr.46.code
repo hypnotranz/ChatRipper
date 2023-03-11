@@ -1,0 +1,14 @@
+# Generated from prompt: > give me code that follows these instructions
+
+const axios = require('axios');
+
+const API_KEY = 'YOUR_API_KEY';
+const URL = `https://gnews.io/api/v4/search?q=example&token=${API_KEY}`;
+
+axios.get(URL)
+  .then(response => {
+    console.log(response.data.articles);
+  })
+  .catch(error => {
+    console.log(error);
+  });

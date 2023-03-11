@@ -1,0 +1,16 @@
+# Generated from prompt: > give me a user table for an enterprise application
+
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| user\_id | integer | Unique identifier for the user |
+| username | varchar | Unique username for the user |
+| password | varchar | Encrypted password for the user |
+| first\_name | varchar | First name of the user |
+| last\_name | varchar | Last name of the user |
+| email | varchar | Email address of the user |
+| phone\_number | varchar | Phone number of the user |
+| department\_id | integer | Foreign key to department table indicating the user's department |
+| role\_id | integer | Foreign key to role table indicating the user's role |
+| is\_active | boolean | Indicates whether the user is active or inactive |
+| created\_at | timestamp | Timestamp for when the user was created |
+| updated\_at | timestamp | Timestamp for when the user was last updated |

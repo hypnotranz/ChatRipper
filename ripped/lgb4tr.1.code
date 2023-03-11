@@ -1,0 +1,3 @@
+# Generated from prompt: > my domain is nimbletec.com. google admin is my provider. can you just give me the record
+
+_dmarc.nimbletec.com.    IN    TXT    "v=DMARC1; p=none; rua=mailto:your@email.com"

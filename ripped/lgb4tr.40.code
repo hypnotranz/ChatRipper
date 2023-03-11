@@ -1,0 +1,19 @@
+# Generated from prompt: > what about codex
+
+import OpenAI from 'openai';
+
+const openai = new OpenAI(process.env.OPENAI_API_KEY);
+
+export class CodexServiceImpl implements CodexService {
+  async generateCode(prompt: string): Promise<string> {
+    const completions = await openai.complete({
+      engine: 'davinci-codex',
+      prompt,
+      maxTokens: 1024,
+      n: 1,
+      stop: '\n',
+    });
+
+    return completions.choices[0].text.trim();
+  }
+}

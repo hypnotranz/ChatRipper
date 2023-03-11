@@ -1,0 +1,3 @@
+# Generated from prompt: > how do i use chmod to check it
+
+ls -l /home/user/my-project

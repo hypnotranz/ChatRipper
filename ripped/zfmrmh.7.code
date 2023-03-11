@@ -1,0 +1,12 @@
+# Generated from prompt: > this is for a lambda?
+
+import boto3
+from flask import Flask
+
+app = Flask(__name__)
+
+def lambda_handler(event, context):
+    client = boto3.client('apigatewaymanagementapi', endpoint_url='https://<api-id>.execute-api.<region>.amazonaws.com/')
+    response = app.test_client().get('/')
+    client.post_to_connection(ConnectionId=event['requestContext']['connectionId'], Data=response.data)
+    return {'statusCode': 200, 'body': 'Message sent.'}

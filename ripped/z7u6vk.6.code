@@ -1,0 +1,10 @@
+# Generated from prompt: > now give me data services to call them in python
+
+import pyodbc
+
+def create_user(username, password, first_name, last_name, email, phone_number, department_id, role_id):
+    connection = pyodbc.connect('DRIVER={SQL Server};SERVER=<server_name>;DATABASE=<database_name>;UID=<username>;PWD=<password>')
+    cursor = connection.cursor()
+    cursor.execute("EXEC spCreateUser ?, ?, ?, ?, ?, ?, ?, ?", (username, password, first_name, last_name, email, phone_number, department_id, role_id))
+    connection.commit()
+    connection.close()

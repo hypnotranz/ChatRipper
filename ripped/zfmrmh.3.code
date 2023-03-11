@@ -1,0 +1,5 @@
+# Generated from prompt: > Walk me through hello world python rest service soup to nuts
+
+from flask import Flask
+
+app = Flask(__name__)

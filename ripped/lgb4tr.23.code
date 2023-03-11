@@ -1,0 +1,22 @@
+# Generated from prompt: > give me a puppateer script to log into linkedin
+
+const puppeteer = require('puppeteer');
+
+(async () => {
+  const browser = await puppeteer.launch({ headless: false });
+  const page = await browser.newPage();
+  await page.goto('https://www.linkedin.com/login');
+
+  await page.type('#username', 'your-email@example.com');
+  await page.type('#password', 'your-password');
+
+  const submitButton = await page.$('[data-litms-control-urn="login-submit"]');
+  await submitButton.click();
+
+  await page.waitForNavigation();
+  console.log('Logged in to LinkedIn');
+
+  // Do additional actions or navigate to other pages as needed.
+
+  await browser.close();
+})();

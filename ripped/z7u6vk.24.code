@@ -1,0 +1,15 @@
+# Generated from prompt: > now the rest service controllers
+
+from flask import request
+from flask_restful import Resource
+from myapp.domain.user import User
+from myapp.models.user import LoginInputModel, LoginOutputModel
+from myapp.mappers.user import LoginMapper
+
+class LoginController(Resource):
+    def post(self):
+        input_model = LoginInputModel(**request.get_json())
+        domain_model = LoginMapper.to_domain_model(input_model)
+        token = User.login(*domain_model)
+        output_model = LoginMapper.to_output_model(token)
+        return output_model.__dict__, 200

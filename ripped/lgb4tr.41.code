@@ -1,0 +1,5 @@
+# Generated from prompt: > no. i am saying give me a common interfacec that can be used to call codex and twillio along with implementations of each
+
+interface MessageSender {
+  sendMessage(recipient: string, message: string): Promise<void>;
+}

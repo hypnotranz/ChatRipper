@@ -1,0 +1,8 @@
+# Generated from prompt: > now give me the crud stored procs
+
+CREATE PROCEDURE spDeleteUser 
+    @user_id int
+AS
+BEGIN
+    DELETE FROM users WHERE user_id = @user_id
+END

@@ -1,0 +1,3 @@
+# Generated from prompt: > what can I use to test a key pair
+
+ssh -i private_key_file_name user@hostname

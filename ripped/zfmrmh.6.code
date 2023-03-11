@@ -1,0 +1,5 @@
+# Generated from prompt: > this is for a lambda?
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'

@@ -1,0 +1,40 @@
+# Generated from prompt: > the onus is still on me to know whether or not the user exists
+
+CREATE PROCEDURE spUpsertUser 
+    @user_id int,
+    @username varchar(50), 
+    @password varchar(50), 
+    @first_name varchar(50), 
+    @last_name varchar(50), 
+    @email varchar(50),
+    @phone_number varchar(50),
+    @department_id int,
+    @role_id int,
+    @is_active bit
+AS
+BEGIN
+    DECLARE @existing_user_id int
+    SELECT @existing_user_id = user_id FROM users WHERE user_id = @user_id
+
+    IF @existing_user_id IS NULL
+    BEGIN
+        INSERT INTO users (username, password, first_name, last_name, email, phone_number, department_id, role_id, is_active, created_at, updated_at)
+        VALUES (@username, @password, @first_name, @last_name, @email, 
+                @phone_number, @department_id, @role_id, @is_active, GETDATE(), GETDATE())
+    END
+    ELSE
+    BEGIN
+        UPDATE users SET 
+            username = @username, 
+            password = @password, 
+            first_name = @first_name, 
+            last_name = @last_name, 
+            email = @email,
+            phone_number = @phone_number,
+            department_id = @department_id,
+            role_id = @role_id,
+            is_active = @is_active,
+            updated_at = GETDATE()
+        WHERE user_id = @existing_user_id
+    END
+END
