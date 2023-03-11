@@ -1,6 +1,0 @@
-> can I install it from a command line?
-1.  Install Node.js and npm: Tauri requires Node.js and npm to be installed on your system. You can download and install them from the official Node.js website: [https://nodejs.org/](https://nodejs.org/)
-2.  Install Rust: Tauri also requires Rust to be installed on your system. You can download and install Rust from the official Rust website: [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
-3.  Install the Tauri CLI: Once Node.js, npm, and Rust are installed, you can install the Tauri CLI by running the following command in your terminal or command prompt:
-4.  Verify the installation: After the installation is complete, you can verify that Tauri is installed correctly by running the `tauri --version` command in your terminal or command prompt. This should print the version number of Tauri if it is installed correctly.
-

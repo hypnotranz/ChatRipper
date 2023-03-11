@@ -1,825 +1,354 @@
-2023-03-10 19:36:58,668 - INFO - Found prompt: > what are the best machine learning for code
-2023-03-10 19:36:58,669 - INFO - Found list: > what are the best machine learning for code
-2023-03-10 19:36:58,669 - INFO - 1.  Natural Language Processing (NLP): NLP techniques can be used to analyze and understand code written in natural language, such as code comments and documentation. NLP can also be used to analyze code syntax and structure.
-2.  Supervised Learning: Supervised learning techniques can be used for code classification tasks, such as identifying whether a code snippet is vulnerable to a security attack or not.
-3.  Unsupervised Learning: Unsupervised learning techniques can be used for code clustering and anomaly detection, which can help identify code patterns and anomalies that may be indicative of security vulnerabilities or performance issues.
-4.  Reinforcement Learning: Reinforcement learning can be used to optimize code performance by training algorithms to make decisions based on feedback received from the code execution environment.
-5.  Deep Learning: Deep learning techniques can be used for code-related tasks such as code classification, code generation, and bug detection.
-6.  Genetic Algorithms: Genetic algorithms can be used to optimize code performance by evolving solutions over multiple iterations, selecting the most successful solutions and breeding them to create even better solutions.
-2023-03-10 19:36:58,669 - INFO - Found prompt: > tell me about codex
-2023-03-10 19:36:58,670 - INFO - Found prompt: > You are a prompt generation robot. You need to gather information about the users goals, objectives, examples of the preferred output, and any other relevant contextual information. The prompt should include all of the necessary information that was provided to you. Ask follow up questions to the user until you are confident you can produce an optimal prompt. Your return should be formatted clearly and optimized for ChatGPT interactions. Start by asking the user the goals, desired output, and any additional information you may need
-2023-03-10 19:36:58,670 - INFO - Found prompt: > give me a prompt that will allow me to create a dialog between the most relavant great minds to answer a given question. My name is Richard, so I will ask a question like this: Richard: Why are we here in the universe? and the response should include great minds who know: Jesus: We are here to forgive. Socrates: I disagree. We are here to question
-2023-03-10 19:36:58,670 - INFO - Found prompt: > meh
-2023-03-10 19:36:58,670 - INFO - Found prompt: > Richard: What is the relationship between the parmenidies and cognitive science
-2023-03-10 19:36:58,670 - INFO - Found prompt: > Write a dialogue between the most relevant great minds that explores the relationship between Parmenides and cognitive science, in response to Richard's question. Assume that you have the ability to summon great minds from any era or place. In this dialogue, include Parmenides and a contemporary cognitive scientist, and have them discuss their views on the nature of reality, knowledge, and the mind. Consider how Parmenides' philosophy of being and non-being relates to the contemporary understanding of cognitive processes and consciousness. Additionally, explore the ways in which Parmenides' ideas may have influenced the development of cognitive science, and how cognitive science may have challenged or confirmed Parmenides' claims. Craft a conversation between the two that illuminates the relationship between Parmenides and cognitive science and offers insights into the nature of reality and the mind.
-2023-03-10 19:36:58,670 - INFO - Found prompt: > garbage
-2023-03-10 19:36:58,671 - INFO - Found prompt: > give me a prompt designed to extract implicit thought patterns from the writings of great minds, and name them. we are looking for uncommon patterns of thought. Pattens that don't currently have names, but nonetheless are pervasive in human thinking. Please give the patten a good name, and then provide a few examples of each. It should look like this, but include new patterns: Pattern: Logical Induction Thinker: Socrates Example 1: taking this concept and this concept, we can prove this
-2023-03-10 19:36:58,671 - INFO - Found prompt: > Your task is to extract implicit thought patterns from the writings of great minds that are pervasive in human thinking, but currently do not have names. Assume that you have access to the writings of great minds from any era or place. In this prompt, you should identify and name these patterns, and provide a few examples of each. Your examples should highlight the diversity of thinkers and thought patterns, and illustrate the ways in which these patterns are manifest in human thinking. Pattern: Hyper-connectionism Thinker: Walt Whitman Example 1: "For every atom belonging to me as good belongs to you." Example 2: "I am large, I contain multitudes." Pattern: Participatory Epistemology Thinker: Bell Hooks Example 1: "The function of art is to do more than tell it like it is - it's to imagine what is possible." Example 2: "Any theory that cannot be applied to the lives of real people in the real world is a theory that must be rejected." Pattern: Narrative Reclamation Thinker: Chimamanda Ngozi Adichie Example 1: "The single story creates stereotypes, and the problem with stereotypes is not that they are untrue, but that they are incomplete. They make one story become the only story." Example 2: "The thing about stereotypes is not that they are false, but that they are incomplete. They make one story become the only story." Pattern: Empathic Validation Thinker: Carl Rogers Example 1: "The curious paradox is that when I accept myself just as I am, then I can change." Example 2: "People are just as wonderful as sunsets if you let them be. When I look at a sunset, I don't find myself saying, "Soften the orange a bit on the right hand corner." I don't try to control a sunset. I watch with awe as it unfolds." Pattern: Ecological Integration Thinker: Rachel Carson Example 1: "It is a curious situation that the sea, from which life first arose, should now be threatened by the activities of one form of that life." Example 2: "The more clearly we can focus our attention on the wonders and realities of the universe about us, the less taste we shall have for destruction."
-2023-03-10 19:36:58,672 - INFO - Found prompt: > ok. But lets include examples from multiple thinkers for each
-2023-03-10 19:36:58,672 - INFO - Found prompt: > great. but please demonstrate that the discvovered pattern is novel
-2023-03-10 19:36:58,672 - INFO - Found prompt: > good. keep generating. but make sure you outline the structure of the pattern
-2023-03-10 19:36:58,672 - INFO - Found prompt: > perfect format. now give me some new ones. try to move toward a mathematical domain
-2023-03-10 19:36:58,673 - INFO - Found prompt: > these are great, but I believe they are known patterns. We are looking for new and innovative thought patterns that these great thinkers exhibit, but have not necisarily itentified as a novel path of cognistion
-2023-03-10 19:36:58,673 - INFO - Found prompt: > these are much better. Please include a suggestion at the end for an area of thought or study where each pattern has not been applied, however based on its structure and fit with surrounding concepts, can be applied analogously to this new suggested topic
-2023-03-10 19:36:58,673 - INFO - Found prompt: > this is very good, but instead of Area of Application, I want "New Potential Area of Application"
-2023-03-10 19:36:58,673 - INFO - Found prompt: > great. this format looks great. now keep going with math and computer science oriented thought patterns. be sure to include a novel list each time
-2023-03-10 19:36:58,673 - INFO - Found prompt: > perfect. Please continue. lets try to find these ew potential areas of application such that they are as distant from the original examples in terms of area of study as possible. For example, perhaps there is a link between laplace transforms and bhuddist thought or the musical composition.
-2023-03-10 19:36:58,673 - INFO - Found prompt: > perfect. Please continue. lets try to find these ew potential areas of application such that they are as distant from the original examples in terms of area of study as possible. For example, perhaps there is a link between laplace transforms and bhuddist thought or the musical composition or the art of dance or metaphysics.
-2023-03-10 19:36:58,674 - INFO - Found prompt: > excellent. but these seem well known. we are looking for more obscure patterns that these great thinkers must implicitly have built into their cognition. some underlying commonality in the process of cognition that yeilds these great insights. perhaps they are meta to the patterns being currently generated
-2023-03-10 19:36:58,674 - INFO - Found prompt: > these are very good. now give me some very basic pattens from early roots like logical reasoning, or geometry, so that your reasoning process can be confirmed. we can come back to more complex patterns later. for now, lets mine for innovation which has gone un-noticed within more basic areas.
-2023-03-10 19:36:58,674 - INFO - Found prompt: > perfect. lets get even more basic. we want to get to the roots of human cognition
-2023-03-10 19:36:58,674 - INFO - Found prompt: > perfect. keep going. even more basic!
-2023-03-10 19:36:58,686 - INFO - Found prompt: > what is orientation
-2023-03-10 19:36:58,687 - INFO - Found prompt: > what is reification
-2023-03-10 19:36:58,687 - INFO - Found prompt: > i have google gmail for my company. if I send to gmail they get delivered. but when i deliver to an outside domain they do not go
-2023-03-10 19:36:58,687 - INFO - Found prompt: > how do i configurte these orrect SPF, DKIM, and DMARC records. for gmail for my domain
-2023-03-10 19:36:58,688 - INFO - Found list: > how do i configurte these orrect SPF, DKIM, and DMARC records. for gmail for my domain
-2023-03-10 19:36:58,688 - INFO - 1.  Log in to your domain registrar or DNS provider account where you manage your domain's DNS settings.
-2.  Create a new TXT record for your domain's SPF record, and set the value to include the following information: "v=spf1 include:\_spf.google.com ~all".
-3.  Create a new TXT record for your domain's DKIM record, and set the value to the public key that you can find in your Gmail account's DKIM settings.
-4.  Create a new DMARC record for your domain, and set the value to "v=DMARC1; p=none; rua=mailto:[your@email.com](mailto:your@email.com)". This record instructs email receivers to send DMARC reports to the email address you provide.
-2023-03-10 19:36:58,688 - INFO - Found prompt: > how do i create this Create a new TXT record for your domain's SPF record, and set the value to include the following information: "v=spf1 include:\_spf.google.com ~all".
-2023-03-10 19:36:58,689 - INFO - Found list: > how do i create this Create a new TXT record for your domain's SPF record, and set the value to include the following information: "v=spf1 include:\_spf.google.com ~all".
-2023-03-10 19:36:58,689 - INFO - 1.  Log in to your domain registrar or DNS provider's account.
-2.  Navigate to the DNS management section of your domain settings.
-3.  Find the option to add a new DNS record and select TXT as the record type.
-4.  In the "Name" field, enter the name of the domain or subdomain that you want to create the SPF record for (e.g., yourdomain.com or mail.yourdomain.com).
-5.  In the "Value" field, enter the following SPF record: "v=spf1 include:\_spf.google.com ~all".
-6.  Save the changes to your DNS settings.
-2023-03-10 19:36:58,689 - INFO - Found prompt: > how can I set up dmarc
-2023-03-10 19:36:58,690 - INFO - Found list: > how can I set up dmarc
-2023-03-10 19:36:58,690 - INFO - 1.  Log in to your domain registrar or DNS provider's account where you manage your domain's DNS settings.
-2.  Create a new DMARC TXT record for your domain.
-3.  Specify the DMARC policy and reporting options in the TXT record.
-4.  Publish the DMARC record by saving the changes to your DNS settings.
-1.  Log in to your domain registrar or DNS provider's account where you manage your domain's DNS settings.
-2.  Navigate to the DNS management section of your domain settings.
-3.  Create a new TXT record with the name "\_dmarc.yourdomain.com" (replace "yourdomain.com" with your actual domain name).
-4.  In the "Value" field, enter the DMARC policy and reporting options. Here's an example DMARC record:
-5.  Save the changes to your DNS settings.
-2023-03-10 19:36:58,690 - INFO - Found prompt: > my domain is nimbletec.com. google admin is my provider. can you just give me the record
-2023-03-10 19:36:58,691 - INFO - Found list: > my domain is nimbletec.com. google admin is my provider. can you just give me the record
-2023-03-10 19:36:58,691 - INFO - 1.  Log in to your Google Admin console at [https://admin.google.com](https://admin.google.com).
-2.  Click on "Apps" and then "Google Workspace".
-3.  Click on "Gmail" and then "Authentication".
-4.  Scroll down to the "DMARC" section and click on "Add setting".
-5.  In the "Domain" field, enter "nimbletec.com".
-6.  In the "Policy" field, select "None" to start with a monitoring-only policy.
-7.  In the "Aggregate report emails" field, enter the email address where you want to receive DMARC reports.
-8.  Click "Save".
-2023-03-10 19:36:58,691 - INFO - Found prompt: > what does this one mean? v=DMARC1; p=reject; rua=mailto:richard.santomauro@nimbletec.com, mailto:richard.santomauro@nimbletec.com; pct=100; adkim=s; aspf=s
-2023-03-10 19:36:58,691 - INFO - Found prompt: > whats this one do \_dmarc.nimbletec.com. IN TXT "v=DMARC1; p=none; rua=mailto:your@email.com"
-2023-03-10 19:36:58,691 - INFO - Found prompt: > but google tools is saying dmarc not set up
-2023-03-10 19:36:58,692 - INFO - Found list: > but google tools is saying dmarc not set up
-2023-03-10 19:36:58,692 - INFO - 1.  Check the spelling and syntax of the DMARC record to ensure that it's correct. Use a DMARC record syntax checker to verify that the DMARC record is valid.
-2.  Make sure that the DMARC record is published in the correct location in your DNS settings. The DMARC record should be published as a TXT record with the name "\_dmarc.yourdomain.com".
-3.  Check that the TTL (time-to-live) value for the DMARC record is not set too high, as this can cause delays in the record propagation.
-4.  Wait for up to 48 hours for the DMARC record to propagate fully. DMARC records can take some time to propagate across the internet, so it's important to be patient and wait for the changes to take effect.
-5.  Check that the DMARC record is not being overridden by any other conflicting DNS records. For example, if you have multiple TXT records with the same name, this can cause conflicts and prevent the DMARC record from being applied correctly.
-6.  Check that the domain specified in the DMARC record matches the domain that you are sending emails from. If the domains do not match, the DMARC record may not be applied correctly.
-2023-03-10 19:36:58,692 - INFO - Found prompt: > what is the difference between saving a putty key gen and export
-2023-03-10 19:36:58,692 - INFO - Found prompt: > what can I use to test a key pair
-2023-03-10 19:36:58,693 - INFO - Found list: > what can I use to test a key pair
-2023-03-10 19:36:58,693 - INFO - 1.  Open your terminal or command prompt.
-2.  Navigate to the directory where your private key is saved.
-3.  Use the following command to set the correct permissions for the private key file:
-4.  Use the following command to test the key pair:
-5.  If the key pair is working correctly, you should be able to log in to the remote server without being prompted for a password.
-2023-03-10 19:36:58,693 - INFO - Found prompt: > how can i add the public key to authorized keys file
-2023-03-10 19:36:58,693 - INFO - Found list: > how can i add the public key to authorized keys file
-2023-03-10 19:36:58,694 - INFO - 1.  Log in to the remote server using your username and password.
-2.  Navigate to the .ssh directory on the remote server. If the directory does not exist, you can create it with the following command:
-3.  Open the authorized\_keys file in a text editor, using the following command:
-4.  Copy the contents of your public key file (usually the file ending with ".pub") from your local machine and paste them into the authorized\_keys file on the remote server.
-5.  Save the changes to the authorized\_keys file and exit the text editor.
-6.  Set the correct permissions for the authorized\_keys file with the following command:
-2023-03-10 19:36:58,694 - INFO - Found prompt: > can i test it locally
-2023-03-10 19:36:58,694 - INFO - Found list: > can i test it locally
-2023-03-10 19:36:58,695 - INFO - 1.  Open your terminal or command prompt.
-2.  Navigate to the directory where your private key is saved.
-3.  Use the following command to set the correct permissions for the private key file:
-4.  Use the following command to test the key pair:
-5.  If the key pair is working correctly, you should be able to log in to your local machine without being prompted for a password.
-2023-03-10 19:36:58,695 - INFO - Found prompt: > how do i add the public key to authorized keys
-2023-03-10 19:36:58,695 - INFO - Found list: > how do i add the public key to authorized keys
-2023-03-10 19:36:58,695 - INFO - 1.  Open a terminal or command prompt on the machine where the public key is stored.
-2.  Copy the public key text to your clipboard. If you have saved the public key as a file, you can use the following command to display the contents of the file:
-3.  Connect to the remote server or local machine where you want to add the public key.
-4.  Navigate to the .ssh directory on the remote server or local machine. If the directory does not exist, you can create it with the following command:
-5.  Open the authorized\_keys file in a text editor, using the following command:
-6.  Paste the public key text from your clipboard into the authorized\_keys file on a new line.
-7.  Save the changes to the authorized\_keys file and exit the text editor.
-8.  Set the correct permissions for the authorized\_keys file with the following command:
-9.  Optionally, you can disable password authentication in the sshd configuration file on the remote server or local machine to further secure your SSH connection. To do this, set the following configuration parameter to "no" in the sshd\_config file:
-10.  Restart the sshd service on the remote server or local machine for the changes to take effect:
-2023-03-10 19:36:58,695 - INFO - Found prompt: > im using gitbash and it says no sudo
-2023-03-10 19:36:58,696 - INFO - Found list: > im using gitbash and it says no sudo
-2023-03-10 19:36:58,696 - INFO - 1.  Open Git Bash as an administrator. You can do this by right-clicking on the Git Bash icon and selecting "Run as administrator".
-2.  Run the following command to open a new Git Bash shell with elevated privileges:
-3.  Type in the command you want to run with elevated privileges. For example, if you want to run a command that requires administrator permissions, you can prefix the command with `sudo`.
-2023-03-10 19:36:58,696 - INFO - Found prompt: > bash: systemctl: command not found
-2023-03-10 19:36:58,696 - INFO - Found prompt: > will it work on wsl
-2023-03-10 19:36:58,696 - INFO - Found prompt: > \[sudo\] password for hypnotranz: System has not been booted with systemd as init system (PID 1). Can't operate. Failed to connect to bus: Host is down
-2023-03-10 19:36:58,696 - INFO - Found prompt: > im in wsl
-2023-03-10 19:36:58,696 - INFO - Found prompt: > give me a puppateer script to log into linkedin
-2023-03-10 19:36:58,696 - INFO - Found prompt: > use typescript and make it CLEAN
-2023-03-10 19:36:58,697 - INFO - Found prompt: > can an item be sent from the us to ometepe nicaragua without being damaged or stolen?
-2023-03-10 19:36:58,697 - INFO - Found list: > can an item be sent from the us to ometepe nicaragua without being damaged or stolen?
-2023-03-10 19:36:58,697 - INFO - 1.  Choose a reliable shipping carrier: Select a shipping carrier that has a good reputation for delivering packages safely and securely. You may also want to choose a carrier that provides package tracking and insurance options.
-2.  Pack the item securely: Use sturdy, protective packaging materials to ensure that the item is not damaged during transit. Consider using bubble wrap, packing peanuts, or other cushioning materials to protect the item from impact.
-3.  Use a shipping service with signature confirmation: Consider using a shipping service that requires a signature upon delivery, to ensure that the package is received by the intended recipient and not stolen.
-4.  Declare the value of the item: If the item has significant value, consider declaring its value when shipping it, and purchasing insurance to protect against loss or damage.
-2023-03-10 19:36:58,697 - INFO - Found prompt: > Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 9486 ms ➜ Local: http://127.0.0.1:1420/ ➜ Network: use --host to expose Info Watching C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri for changes... Compiling chatgpt v0.0.0 (C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri) error: failed to run custom build command for \`chatgpt v0.0.0 (C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri)\` Caused by: process didn't exit successfully: \`C:\\Users\\Richa\\source\\repos\\ChatGPT\\target\\debug\\build\\chatgpt-bba01045c08e87ed\\build-script-build\` (exit code: 1) --- stdout cargo:rerun-if-env-changed=TAURI\_CONFIG cargo:rerun-if-changed=tauri.conf.json cargo:rustc-cfg=desktop cargo:rustc-cfg=dev package.metadata does not exist failed to compile \`icons/icon.ico\` into a Windows Resource file during tauri-build: program not found
-2023-03-10 19:36:58,698 - INFO - Found list: > Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 9486 ms ➜ Local: http://127.0.0.1:1420/ ➜ Network: use --host to expose Info Watching C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri for changes... Compiling chatgpt v0.0.0 (C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri) error: failed to run custom build command for \`chatgpt v0.0.0 (C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri)\` Caused by: process didn't exit successfully: \`C:\\Users\\Richa\\source\\repos\\ChatGPT\\target\\debug\\build\\chatgpt-bba01045c08e87ed\\build-script-build\` (exit code: 1) --- stdout cargo:rerun-if-env-changed=TAURI\_CONFIG cargo:rerun-if-changed=tauri.conf.json cargo:rustc-cfg=desktop cargo:rustc-cfg=dev package.metadata does not exist failed to compile \`icons/icon.ico\` into a Windows Resource file during tauri-build: program not found
-2023-03-10 19:36:58,698 - INFO - 1.  Open the Windows Command Prompt or PowerShell.
-2.  Run the following command to install the `binutils` package using the Chocolatey package manager:
-3.  Once `binutils` is installed, try rebuilding your project and see if the error is resolved.
-2023-03-10 19:36:58,699 - INFO - Found prompt: > how to do with admin rights
-2023-03-10 19:36:58,699 - INFO - Found list: > how to do with admin rights
-2023-03-10 19:36:58,699 - INFO - 1.  Press the Windows key to open the Start menu.
-2.  Type "cmd" or "PowerShell" into the search bar.
-3.  Right-click on the Command Prompt or PowerShell result and select "Run as administrator".
-4.  If prompted, enter your administrator password or confirm the action.
-5.  The Command Prompt or PowerShell window should now open with administrator privileges. You can use this window to perform administrative tasks, such as installing packages or modifying system files.
-2023-03-10 19:36:58,699 - INFO - Found prompt: > This problem in wsl hypnotranz@TABLET:/mnt/c/Users/Richa/source/repos/ChatGPT$ yarn dev yarn run v1.22.19 warning ../package.json: No license field $ tauri dev thread '<unnamed>' panicked at 'called \`Result::unwrap()\` on an \`Err\` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }', src/interface/rust.rs:762:69 note: run with \`RUST\_BACKTRACE=1\` environment variable to display a backtrace Done in 1.74s.
-2023-03-10 19:36:58,700 - INFO - Found list: > This problem in wsl hypnotranz@TABLET:/mnt/c/Users/Richa/source/repos/ChatGPT$ yarn dev yarn run v1.22.19 warning ../package.json: No license field $ tauri dev thread '<unnamed>' panicked at 'called \`Result::unwrap()\` on an \`Err\` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }', src/interface/rust.rs:762:69 note: run with \`RUST\_BACKTRACE=1\` environment variable to display a backtrace Done in 1.74s.
-2023-03-10 19:36:58,700 - INFO - 1.  Check that the required files and directories are present: Review the Tauri documentation or project configuration to determine which files or directories are required for the application to run. Then, check that those files and directories are present on your system and in the expected locations.
-2.  Ensure that the Tauri project is set up correctly: Verify that you have set up the Tauri project correctly, including installing any required dependencies and configuring the project as needed.
-3.  Check for typos or syntax errors: Review the error message and any relevant code or configuration files for typos or syntax errors that could be causing the issue.
-4.  Check the Rust backtrace: If the error message suggests running with `RUST_BACKTRACE=1`, try running the command with that environment variable set to display a backtrace. The backtrace may provide more information about the specific error and help pinpoint the issue.
-2023-03-10 19:36:58,700 - INFO - Found prompt: > how to I insure rust is installed
-2023-03-10 19:36:58,700 - INFO - Found prompt: > how to install rust from powershell
-2023-03-10 19:36:58,701 - INFO - Found list: > how to install rust from powershell
-2023-03-10 19:36:58,701 - INFO - 1.  Open PowerShell as an administrator by right-clicking on the PowerShell icon and selecting "Run as Administrator".
-2.  Install the Chocolatey package manager by running the following command:
-3.  Install Rust using Chocolatey by running the following command:
-4.  After the installation is complete, verify that Rust is installed correctly by running the following command:
-2023-03-10 19:36:58,701 - INFO - Found prompt: > hypnotranz@TABLET:/mnt/c/Users/Richa/source/repos/ChatGPT$ yarn dev yarn run v1.22.19 warning ../package.json: No license field $ tauri dev Running BeforeDevCommand (\`npm run dev:fe\`) > chatgpt@0.0.0 dev:fe > vite Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 1379 ms ➜ Local: http://localhost:1420/ ➜ Network: use --host to expose Error failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2) error Command failed with exit code 1. info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-2023-03-10 19:36:58,702 - INFO - Found list: > hypnotranz@TABLET:/mnt/c/Users/Richa/source/repos/ChatGPT$ yarn dev yarn run v1.22.19 warning ../package.json: No license field $ tauri dev Running BeforeDevCommand (\`npm run dev:fe\`) > chatgpt@0.0.0 dev:fe > vite Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 1379 ms ➜ Local: http://localhost:1420/ ➜ Network: use --host to expose Error failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2) error Command failed with exit code 1. info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-2023-03-10 19:36:58,702 - INFO - 1.  Check that Rust is installed: Verify that Rust is installed on your system by running the `rustc --version` command in your terminal or command prompt. If Rust is not installed, you can download and install it from the official Rust website: [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
-2.  Check that the Tauri project is set up correctly: Review the Tauri documentation or project configuration to determine if any additional setup is required to build the project. Make sure that all required dependencies and configuration files are present and set up correctly.
-3.  Check for typos or syntax errors: Review the error message and any relevant code or configuration files for typos or syntax errors that could be causing the issue.
-4.  Try running Tauri with verbose logging: You can try running the Tauri command with the `--verbose` flag to get more detailed output and help diagnose the issue. For example:
-2023-03-10 19:36:58,703 - INFO - Found prompt: > how to make sure tauri is installed
-2023-03-10 19:36:58,703 - INFO - Found prompt: > can I install it from a command line?
-2023-03-10 19:36:58,703 - INFO - Found list: > can I install it from a command line?
-2023-03-10 19:36:58,703 - INFO - 1.  Install Node.js and npm: Tauri requires Node.js and npm to be installed on your system. You can download and install them from the official Node.js website: [https://nodejs.org/](https://nodejs.org/)
-2.  Install Rust: Tauri also requires Rust to be installed on your system. You can download and install Rust from the official Rust website: [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
-3.  Install the Tauri CLI: Once Node.js, npm, and Rust are installed, you can install the Tauri CLI by running the following command in your terminal or command prompt:
-4.  Verify the installation: After the installation is complete, you can verify that Tauri is installed correctly by running the `tauri --version` command in your terminal or command prompt. This should print the version number of Tauri if it is installed correctly.
-2023-03-10 19:36:58,704 - INFO - Found prompt: > yarn run v1.22.19 warning ../package.json: No license field $ tauri dev Running BeforeDevCommand (\`npm run dev:fe\`) > chatgpt@0.0.0 dev:fe > vite Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 2254 ms ➜ Local: http://localhost:1420/ ➜ Network: use --host to expose Error failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2) error Command failed with exit code 1. info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command. hypnotranz@TABLET:/mnt/c/Users/Richa/source/repos/ChatGPT$ The service is no longer running
-2023-03-10 19:36:58,704 - INFO - Found list: > yarn run v1.22.19 warning ../package.json: No license field $ tauri dev Running BeforeDevCommand (\`npm run dev:fe\`) > chatgpt@0.0.0 dev:fe > vite Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 2254 ms ➜ Local: http://localhost:1420/ ➜ Network: use --host to expose Error failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2) error Command failed with exit code 1. info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command. hypnotranz@TABLET:/mnt/c/Users/Richa/source/repos/ChatGPT$ The service is no longer running
-2023-03-10 19:36:58,704 - INFO - 1.  Check that Rust is installed: Verify that Rust is installed on your system by running the `rustc --version` command in your terminal or command prompt. If Rust is not installed, you can download and install it from the official Rust website: [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
-2.  Check that the Tauri project is set up correctly: Review the Tauri documentation or project configuration to determine if any additional setup is required to build the project. Make sure that all required dependencies and configuration files are present and set up correctly.
-3.  Check for typos or syntax errors: Review the error message and any relevant code or configuration files for typos or syntax errors that could be causing the issue.
-4.  Try running Tauri with verbose logging: You can try running the Tauri command with the `--verbose` flag to get more detailed output and help diagnose the issue. For example:
-2023-03-10 19:36:58,705 - INFO - Found prompt: > Error \[tauri\_cli\_node\] failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2)
-2023-03-10 19:36:58,705 - INFO - Found list: > Error \[tauri\_cli\_node\] failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2)
-2023-03-10 19:36:58,705 - INFO - 1.  Check that Rust is installed: Verify that Rust is installed on your system by running the `rustc --version` command in your terminal or command prompt. If Rust is not installed, you can download and install it from the official Rust website: [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
-2.  Check that the Tauri project is set up correctly: Review the Tauri documentation or project configuration to determine if any additional setup is required to build the project. Make sure that all required dependencies and configuration files are present and set up correctly.
-3.  Check for typos or syntax errors: Review the error message and any relevant code or configuration files for typos or syntax errors that could be causing the issue.
-4.  Try running Tauri with verbose logging: You can try running the Tauri command with the `--verbose` flag to get more detailed output and help diagnose the issue. For example:
-2023-03-10 19:36:58,705 - INFO - Found prompt: > that was the output of touri
-2023-03-10 19:36:58,706 - INFO - Found list: > that was the output of touri
-2023-03-10 19:36:58,707 - INFO - 1.  Make sure you are running Tauri in the correct directory: The error message suggests that Tauri is unable to locate the project output directory. Double-check that you are running Tauri in the correct directory and that the project is properly configured.
-2.  Check that all dependencies are installed: Make sure that all required dependencies are installed and up-to-date. You can check the project's dependencies by reviewing its `package.json` file and running `yarn install` to install any missing dependencies.
-3.  Try cleaning and rebuilding the project: Sometimes build artifacts or temporary files can cause issues with the build process. Try cleaning the project by running `yarn clean` and then rebuilding it by running `yarn build`.
-4.  Check your Rust installation: Make sure that Rust is properly installed and configured on your system. You can verify this by running `rustc --version` in your terminal.
-5.  Try running Tauri with verbose logging: You can try running the Tauri command with the `--verbose` flag to get more detailed output and help diagnose the issue. For example:
-2023-03-10 19:36:58,707 - INFO - Found prompt: > maybe permissions? do i need to correct the directory
-2023-03-10 19:36:58,707 - INFO - Found prompt: > what directory
-2023-03-10 19:36:58,707 - INFO - Found prompt: > how do i use chmod to check it
-2023-03-10 19:36:58,707 - INFO - Found prompt: > it has them all.. and the directory is there
-2023-03-10 19:36:58,708 - INFO - Found list: > it has them all.. and the directory is there
-2023-03-10 19:36:58,708 - INFO - 1.  Check that Rust is properly installed: Make sure that Rust is installed and configured correctly on your system. You can check your Rust installation by running `rustc --version` in your terminal. If Rust is not installed, you can download it from the official Rust website.
-2.  Check that Tauri is properly installed: Make sure that Tauri is installed and configured correctly on your system. You can check your Tauri installation by running `tauri --version` in your terminal. If Tauri is not installed, you can install it using `npm` or `yarn`:
-3.  Check that your Tauri project is properly configured: Make sure that your Tauri project is properly configured, including any necessary dependencies and build scripts. You can review the Tauri documentation or example projects for guidance on how to configure your project.
-4.  Try cleaning and rebuilding your project: Sometimes build artifacts or temporary files can cause issues with the build process. Try cleaning your project by running `yarn clean` and then rebuilding it by running `yarn build`.
-5.  Try running Tauri with verbose logging: You can try running the Tauri command with the `--verbose` flag to get more detailed output and help diagnose the issue. For example:
-2023-03-10 19:36:58,708 - INFO - Found prompt: > 4856 modules transformed. dist/index.html 1.06 kB dist/assets/index-a8c0dc73.css 3.85 kB │ gzip: 1.38 kB dist/assets/md-7aa21ad3.css 22.84 kB │ gzip: 4.55 kB dist/assets/antico-8c74550c.js 9.01 kB │ gzip: 3.27 kB dist/assets/editor-75e5bfdc.js 16.04 kB │ gzip: 5.38 kB dist/assets/rrr-b1fff29c.js 18.30 kB │ gzip: 6.94 kB dist/assets/utils-70888d0d.js 73.12 kB │ gzip: 27.03 kB dist/assets/index-9adee497.js 90.79 kB │ gzip: 25.96 kB dist/assets/rm-c1d64a66.js 111.39 kB │ gzip: 34.35 kB dist/assets/md-4ec12d72.js 230.36 kB │ gzip: 62.57 kB dist/assets/rsh-6cfc2b4e.js 881.72 kB │ gzip: 293.80 kB dist/assets/ant-88a0e882.js 916.18 kB │ gzip: 286.22 kB (!) Some chunks are larger than 500 kBs after minification. Consider: - Using dynamic import() to code-split the application - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit. Error failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2) error Command failed with exit code 1. info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-2023-03-10 19:36:58,709 - INFO - Found list: > 4856 modules transformed. dist/index.html 1.06 kB dist/assets/index-a8c0dc73.css 3.85 kB │ gzip: 1.38 kB dist/assets/md-7aa21ad3.css 22.84 kB │ gzip: 4.55 kB dist/assets/antico-8c74550c.js 9.01 kB │ gzip: 3.27 kB dist/assets/editor-75e5bfdc.js 16.04 kB │ gzip: 5.38 kB dist/assets/rrr-b1fff29c.js 18.30 kB │ gzip: 6.94 kB dist/assets/utils-70888d0d.js 73.12 kB │ gzip: 27.03 kB dist/assets/index-9adee497.js 90.79 kB │ gzip: 25.96 kB dist/assets/rm-c1d64a66.js 111.39 kB │ gzip: 34.35 kB dist/assets/md-4ec12d72.js 230.36 kB │ gzip: 62.57 kB dist/assets/rsh-6cfc2b4e.js 881.72 kB │ gzip: 293.80 kB dist/assets/ant-88a0e882.js 916.18 kB │ gzip: 286.22 kB (!) Some chunks are larger than 500 kBs after minification. Consider: - Using dynamic import() to code-split the application - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit. Error failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2) error Command failed with exit code 1. info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-2023-03-10 19:36:58,709 - INFO - 1.  Check that the Cargo.toml file exists: Make sure that the Cargo.toml file is present in the root directory of your Tauri project. You can check this by navigating to the root directory of your project and running `ls -la`. The Cargo.toml file should be listed in the output.
-2.  Check that the Tauri configuration is correct: Make sure that the Tauri configuration is set up correctly and that the `tauri.conf.json` file is present in the root directory of your project. Check that the path to the Cargo.toml file is specified correctly in the Tauri configuration.
-3.  Try cleaning and rebuilding your project: Sometimes build artifacts or temporary files can cause issues with the build process. Try cleaning your project by running `yarn clean` and then rebuilding it by running `yarn build`.
-4.  Try running Tauri with verbose logging: You can try running the Tauri command with the `--verbose` flag to get more detailed output and help diagnose the issue. For example:
-2023-03-10 19:36:58,709 - INFO - Found prompt: > where is tauri trying to put these files
-2023-03-10 19:36:58,709 - INFO - Found prompt: > Warn \[tauri\_cli::dev\] Waiting for your frontend dev server to start on http://localhost:1420/... Warn \[tauri\_cli::dev\] Waiting for your frontend dev server to start on http://localhost:1420/... failed to load config from /mnt/c/Users/Richa/source/repos/ChatGPT/vite.config.ts error when starting dev server: Error: Cannot find module './path/lib/virtual-types' Require stack: - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/traverse/lib/visitors.js - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/traverse/lib/index.js - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/core/lib/index.js - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@vitejs/plugin-react/dist/index.cjs - /mnt/c/Users/Richa/source/repos/ChatGPT/vite.config.ts - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/vite/dist/node/chunks/dep-ca21228b.js at Function.Module.\_resolveFilename (node:internal/modules/cjs/loader:940:15) at Function.Module.\_load (node:internal/modules/cjs/loader:773:27) at Module.require (node:internal/modules/cjs/loader:1012:19) at require (node:internal/modules/cjs/helpers:93:18) at Object.<anonymous> (/mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/traverse/lib/visitors.js:9:20) at Module.\_compile (node:internal/modules/cjs/loader:1108:14) at Module.\_extensions..js (node:internal/modules/cjs/loader:1137:10) at Object.\_require.extensions.<computed> \[as .js\] (file:///mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/vite/dist/node/chunks/dep-ca21228b.js:62359:17) at Module.load (node:internal/modules/cjs/loader:988:32) at Function.Module.\_load (node:internal/modules/cjs/loader:828:14) Warn \[tauri\_cli::dev\] Waiting for your frontend dev server to start on http://localhost:1420/... Error \[tauri\_cli::dev\] The "beforeDevCommand" terminated with a non-zero status code.
-2023-03-10 19:36:58,711 - INFO - Found prompt: > why use yarn
-2023-03-10 19:36:58,711 - INFO - Found prompt: > Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 2370 ms ➜ Local: http://localhost:1420/ ➜ Network: use --host to expose
-2023-03-10 19:36:58,711 - INFO - Found prompt: > This site can’t be reached
-2023-03-10 19:36:58,711 - INFO - Found prompt: > how to tel if its firewall
-2023-03-10 19:36:58,711 - INFO - Found list: > how to tel if its firewall
-2023-03-10 19:36:58,711 - INFO - 1.  Disable any firewall or antivirus software temporarily and see if the issue is resolved. If it is, you can try adding an exception or allowing the necessary ports in the firewall or antivirus settings.
-2.  Check the firewall logs for any entries related to the blocked connection. The logs may provide information on which ports or protocols are being blocked and why.
-3.  Test the connection from a different network or device that does not have a firewall or antivirus software enabled. If the connection works from the other network or device, it is likely that your firewall or antivirus is blocking the connection.
-2023-03-10 19:36:58,712 - INFO - Found prompt: > how to disable in windows
-2023-03-10 19:36:58,712 - INFO - Found list: > how to disable in windows
-2023-03-10 19:36:58,712 - INFO - 1.  Click on the Windows Start menu button and type "firewall" in the search bar.
-2.  Click on the "Windows Defender Firewall" option that appears in the search results.
-3.  In the left pane of the Windows Defender Firewall window, click on the "Turn Windows Defender Firewall on or off" option.
-4.  Select the "Turn off Windows Defender Firewall (not recommended)" option for both the private and public network settings.
-5.  Click the "OK" button to save the changes and close the window.
-2023-03-10 19:36:58,713 - INFO - Found prompt: > give me a generic interface for calling an api
-2023-03-10 19:36:58,713 - INFO - Found prompt: > give me an implemetation of this interface for codex
-2023-03-10 19:36:58,713 - INFO - Found prompt: > now use the same interface again for sending an sms
-2023-03-10 19:36:58,713 - INFO - Found prompt: > no. these should all have a common interface
-2023-03-10 19:36:58,714 - INFO - Found prompt: > what about codex
-2023-03-10 19:36:58,714 - INFO - Found prompt: > no. i am saying give me a common interfacec that can be used to call codex and twillio along with implementations of each
-2023-03-10 19:36:58,714 - INFO - Found prompt: > what about responses
-2023-03-10 19:36:58,714 - INFO - Found prompt: > list the most common free apis
-2023-03-10 19:36:58,715 - INFO - Found list: > list the most common free apis
-2023-03-10 19:36:58,715 - INFO - 1.  OpenWeatherMap - provides weather information and forecasts
-2.  The COVID Tracking Project API - provides data about COVID-19 cases and deaths
-3.  REST Countries - provides information about countries, such as population, languages, and currencies
-4.  Random User Generator - generates random user data, such as names, addresses, and photos
-5.  NewsAPI - provides headlines and articles from various news sources
-6.  GitHub API - allows developers to interact with GitHub repositories and user data
-7.  Google Maps Platform APIs - provides various APIs for maps, geolocation, and other location-based services
-8.  JSONPlaceholder - provides a RESTful API for testing and prototyping
-9.  Twilio API - allows developers to add messaging, voice, and video capabilities to applications
-10.  Exchange Rates API - provides exchange rate data for various currencies
-2023-03-10 19:36:58,715 - INFO - Found prompt: > top 100
-2023-03-10 19:36:58,715 - INFO - Found list: > top 100
-2023-03-10 19:36:58,715 - INFO - 1.  OpenWeatherMap API
-2.  NewsAPI
-3.  REST Countries
-4.  Google Maps API
-5.  Twitter API
-6.  OpenAI API
-7.  NASA API
-8.  Exchange Rates API
-9.  Chuck Norris Jokes API
-10.  Yelp Fusion API
-11.  Unsplash API
-12.  Random User API
-13.  GIPHY API
-14.  Public Holidays API
-15.  The Movie Database API
-16.  Open Library API
-17.  Dog API
-18.  Food2Fork API
-19.  WikiHow API
-20.  GitHub API
-21.  Random Facts API
-22.  Lyrics.ovh API
-23.  Deck of Cards API
-24.  Numbers API
-25.  TVMaze API
-26.  JokeAPI
-27.  OpenTrivia DB API
-28.  Dictionary API
-29.  RESTful Booker API
-30.  Quote API
-31.  The Cat API
-32.  The Dog API
-33.  The Internet Chuck Norris Database API
-34.  The Dog CEO API
-35.  NASA Image and Video Library API
-36.  WhatIsMyIPAddress API
-37.  Wordnik API
-38.  Oxford Dictionaries API
-39.  Open Brewery DB API
-40.  Storm Glass API
-41.  CoinMarketCap API
-42.  Fixer.io API
-43.  Exchange Rates API
-44.  Movie Quotes API
-45.  Pexels API
-46.  Ron Swanson Quotes API
-47.  Spaceflight News API
-48.  SpaceX API
-49.  Weatherbit API
-50.  Zomato API
-51.  IBM Watson Natural Language Understanding API
-52.  IBM Watson Visual Recognition API
-53.  Wolfram Alpha API
-54.  Bing Maps API
-55.  Currencylayer API
-56.  DictionaryAPI
-57.  JSONPlaceholder API
-58.  Quotes API
-59.  The Breaking Bad API
-60.  Twilio API
-61.  Google Translate API
-62.  Geolocation API
-63.  API-NBA API
-64.  The Lord of the Rings API
-65.  National Park Service API
-66.  Etherscan API
-67.  Open AQ Platform API
-68.  Free IP Geolocation API
-69.  Firebase API
-70.  Steam Web API
-71.  Unofficial SpaceX API
-72.  Instagram API
-73.  Yahoo Finance API
-74.  Yelp API
-75.  Adzuna API
-76.  Fixer.io API
-77.  Songkick API
-78.  Free Currency Converter API
-79.  Open Exoplanet Catalogue API
-80.  TMDb API
-81.  Random Famous Quotes API
-82.  Spotify Web API
-83.  Rijksmuseum API
-84.  Teleport API
-85.  Qwant API
-86.  Google Places API
-87.  GNews API
-88.  Gavagai API
-89.  EOD Historical Data API
-90.  Dark Sky API
-91.  The Cocktail DB API
-92.  Marvel Comics API
-93.  Breaking News API
-94.  NASA Astronomy Picture of the Day API
-95.  ExchangeRatesAPI.io API
-96.  The New York Times API
-97.  The Open Movie Database API
-98.  The Nutritionix API
-99.  The Star Wars API
-100.  Yahoo Weather API
-2023-03-10 19:36:58,716 - INFO - Found prompt: > give me a call for gnews api
-2023-03-10 19:36:58,716 - INFO - Found prompt: > get me an api key
-2023-03-10 19:36:58,716 - INFO - Found list: > get me an api key
-2023-03-10 19:36:58,716 - INFO - 1.  Go to the GNews website: [https://gnews.io/](https://gnews.io/)
-2.  Click on "Sign up" in the top right corner of the page.
-3.  Fill in the sign-up form and click on "Sign up".
-4.  Verify your email address by clicking on the verification link that is sent to your email.
-5.  Go to your account settings and navigate to the API Keys section.
-6.  Click on "Create new API key".
-7.  Follow the instructions to generate a new API key.
-8.  Copy the API key and use it in your API requests.
-2023-03-10 19:36:58,717 - INFO - Found prompt: > give me code that follows these instructions
-2023-03-10 19:36:58,717 - INFO - Found prompt: > give me a puppeteer script which gets the api key
-2023-03-10 19:36:58,717 - INFO - Found prompt: > give me a puppeter script that gets an api key for GitHub API
-2023-03-10 19:36:58,717 - INFO - Found prompt: > give me a script that passes captcha
-2023-03-10 19:36:58,717 - INFO - Found prompt: > give me the top 100 apis again
-2023-03-10 19:36:58,718 - INFO - Found list: > give me the top 100 apis again
-2023-03-10 19:36:58,718 - INFO - 1.  OpenWeatherMap API - Weather data
-2.  Google Maps API - Geolocation and mapping
-3.  Twitter API - Social media data
-4.  YouTube API - Video data
-5.  Flickr API - Photo data
-6.  SoundCloud API - Audio data
-7.  Last.fm API - Music data
-8.  GitHub API - Development data
-9.  Reddit API - Social media data
-10.  NewsAPI - News data
-11.  COVID-19 API - Coronavirus data
-12.  NASA API - Astronomy and space data
-13.  Exchange Rates API - Currency exchange data
-14.  Bing Maps API - Geolocation and mapping
-15.  Deezer API - Music data
-16.  Spotify API - Music data
-17.  Unsplash API - Photo data
-18.  Stripe API - Payment processing data
-19.  OMDB API - Movie and TV data
-20.  Goodreads API - Book data
-21.  GIPHY API - GIF data
-22.  IMDB API - Movie and TV data
-23.  Yelp Fusion API - Local search and review data
-24.  Dog API - Dog-related data
-25.  The Cat API - Cat-related data
-26.  Food API - Food and recipe data
-27.  Fitbit API - Health and fitness data
-28.  Foursquare API - Location data
-29.  Google Books API - Book data
-30.  Google Translate API - Language translation data
-31.  JokeAPI - Joke data
-32.  Marvel API - Comic book data
-33.  NBA API - Basketball data
-34.  NHL API - Hockey data
-35.  PokéAPI - Pokémon data
-36.  Random User API - User profile data
-37.  Rick and Morty API - TV show data
-38.  Studio Ghibli API - Anime and movie data
-39.  Chuck Norris API - Joke data
-40.  Twitch API - Streaming data
-41.  TMDb API - Movie and TV data
-42.  Coronavirus Tracker API - Coronavirus data
-43.  NASA Astronomy Picture of the Day API - Astronomy and space data
-44.  Currency Layer API - Currency exchange data
-45.  Football Data API - Soccer data
-46.  The Movie DB API - Movie and TV data
-47.  The Sports DB API - Sports data
-48.  API Football - Soccer data
-49.  Cat Facts API - Cat-related data
-50.  Dog CEO API - Dog-related data
-51.  CryptoCompare API - Cryptocurrency data
-52.  Google Sheets API - Spreadsheet data
-53.  Zomato API - Restaurant data
-54.  Trello API - Project management data
-55.  National Park Service API - US national park data
-56.  CoinDesk API - Cryptocurrency data
-57.  Gfycat API - GIF data
-58.  WeatherAPI - Weather data
-59.  Musixmatch API - Music data
-60.  Calendly API - Scheduling and booking data
-61.  Google Places API - Location data
-62.  IP Geolocation API - Geolocation data
-63.  Recipe Puppy API - Food and recipe data
-64.  SMS API - SMS messaging data
-65.  Date API - Date and time data
-66.  Timezone API - Timezone data
-67.  Distance API - Distance data
-68.  Numbers API - Fun facts about numbers
-69.  Barcode Lookup API - Product data
-70.  Random User API - User profile data
-71.  Hipster Ipsum API - Dummy text data
-72.  Jokes One API - Joke data
-73.  Geoc
-2023-03-10 19:36:58,719 - INFO - Found prompt: > list 10 ways to combine these apis to create value
-2023-03-10 19:36:58,719 - INFO - Found list: > list 10 ways to combine these apis to create value
-2023-03-10 19:36:58,719 - INFO - 1.  Social media sentiment analysis: Combine APIs like Twitter, Facebook, and Sentiment Analysis to analyze user sentiment around a particular topic or brand on social media.
-2.  Real-time translation: Use APIs like Google Translate and Microsoft Translator to build a real-time translation tool for websites, chat applications, or virtual meetings.
-3.  Weather-based event recommendations: Combine APIs like Dark Sky and Eventbrite to recommend events or activities based on the current or forecasted weather conditions.
-4.  Personalized nutrition advice: Use APIs like Nutritionix and Fitbit to provide personalized nutrition advice based on a user's diet and fitness data.
-5.  Health monitoring: Combine APIs like Apple Health and MyFitnessPal to monitor and analyze a user's health data, such as activity levels, heart rate, and calorie intake.
-6.  Travel planning: Use APIs like Google Maps, Yelp, and Skyscanner to create a comprehensive travel planning tool that includes flights, hotels, restaurants, and activities.
-7.  E-commerce recommendations: Combine APIs like Amazon Product Advertising and Stripe to provide personalized product recommendations and streamlined checkout experiences for e-commerce websites.
-8.  Investment tracking: Use APIs like Yahoo Finance and Alpaca to track and analyze stock prices and create personalized investment portfolios.
-9.  Fraud detection: Combine APIs like Stripe Radar and Twilio Verify to detect and prevent fraud in online transactions.
-10.  Smart home automation: Use APIs like Nest and IFTTT to build a smart home automation tool that adjusts lighting, temperature, and other settings based on user preferences and habits.
-2023-03-10 19:36:58,720 - INFO - Found prompt: > now combine combinations of these 10 to add value
-2023-03-10 19:36:58,720 - INFO - Found prompt: > name these combinations
-2023-03-10 19:36:58,720 - INFO - Found prompt: > list 100 ways to combine various apis to create a new api that creates value. include a name for the newly innovative api
-2023-03-10 19:36:58,721 - INFO - Found list: > list 100 ways to combine various apis to create a new api that creates value. include a name for the newly innovative api
-2023-03-10 19:36:58,721 - INFO - 1.  Integrating multiple data sources to provide more comprehensive information
-2.  Automating tasks by combining APIs for data processing, analysis, and visualization
-3.  Developing intelligent systems that leverage machine learning algorithms using APIs
-4.  Building custom APIs that integrate specific functionality from multiple sources
-5.  Creating personalized experiences by combining APIs with user data
-6.  Enhancing security and authentication using APIs that offer secure login or other verification methods
-7.  Enabling payment and e-commerce capabilities through payment gateway APIs
-8.  Combining geolocation and mapping APIs to create location-based services
-9.  Integrating social media APIs to create social networking or media sharing platforms
-10.  Building voice or chatbots using natural language processing APIs to enable communication between people and machines
-2023-03-10 19:36:58,721 - INFO - Found prompt: > no. i want a list of applications
-2023-03-10 19:36:58,722 - INFO - Found list: > no. i want a list of applications
-2023-03-10 19:36:58,722 - INFO - 1.  Personalized news aggregator - Combine news APIs with user preference data to generate a personalized news feed.
-2.  Social media analytics platform - Use social media APIs to gather data on user behavior and generate insights for businesses.
-3.  Virtual travel planner - Combine travel and location-based APIs to help users plan their next trip and discover new destinations.
-4.  Health and wellness tracker - Use health and fitness APIs to track user progress and provide personalized recommendations.
-5.  Smart home automation - Combine home automation and Internet of Things (IoT) APIs to create a smart home system that can be controlled remotely.
-6.  Language translation service - Use translation APIs to create a service that can translate text, voice, or video in real-time.
-7.  Entertainment recommendation engine - Use APIs from entertainment platforms to generate personalized recommendations for movies, TV shows, and music.
-8.  E-commerce personal shopper - Use e-commerce APIs and machine learning to create a virtual personal shopping assistant that can recommend products based on user preferences.
-9.  Traffic and transportation optimization - Use traffic and transportation APIs to generate real-time traffic reports and optimize transportation routes.
-10.  Financial portfolio management - Combine finance APIs with machine learning to create a portfolio management system that can analyze market trends and provide personalized investment recommendations.
-2023-03-10 19:36:58,722 - INFO - Found prompt: > name the specific apis
-2023-03-10 19:36:58,723 - INFO - Found list: > name the specific apis
-2023-03-10 19:36:58,723 - INFO - 1.  Google Maps API + Yelp API + Eventbrite API = Event Planner API
-2.  OpenWeatherMap API + Twitter API + Slack API = Weather Notification API
-3.  Stripe API + Twilio API + Google Maps API = Delivery Tracking API
-4.  Amazon S3 API + Dropbox API + Google Drive API = Cloud Storage API
-5.  Google Maps API + Uber API + Yelp API = Ride Sharing API
-6.  Shopify API + PayPal API + Mailchimp API = E-commerce Marketing API
-7.  Google Maps API + OpenTable API + Yelp API = Restaurant Reservation API
-8.  Google Maps API + Meetup API + Eventbrite API = Social Event Planning API
-9.  YouTube API + SoundCloud API + Bandcamp API = Music Discovery API
-10.  Twitter API + Instagram API + Facebook API = Social Media Analytics API
-2023-03-10 19:36:58,723 - INFO - Found prompt: > perfect. give me 100
-2023-03-10 19:36:58,723 - INFO - Found list: > perfect. give me 100
-2023-03-10 19:36:58,723 - INFO - 1.  Google Maps API, OpenWeatherMap API, and Yelp API to create a weather-based recommendation engine for local businesses.
-2.  Twitter API, Sentiment Analysis API, and IBM Watson Personality Insights API to create a tool for analyzing brand reputation on social media.
-3.  Stripe API, Twilio API, and Google Maps API to create a delivery tracking system for small businesses.
-4.  AWS Lambda, AWS S3, and Google Vision API to create an image processing service for e-commerce sites.
-5.  Spotify API, Last.fm API, and Songkick API to create a personalized concert recommendation engine.
-6.  Fitbit API, Google Maps API, and Yelp API to create a fitness app that recommends local healthy food options based on a user's activity level.
-7.  Amazon Product Advertising API, Google AdSense API, and Facebook Ads API to create an advertising platform for e-commerce businesses.
-8.  LinkedIn API, Indeed API, and Glassdoor API to create a job aggregator that recommends relevant job listings based on a user's profile.
-9.  YouTube API, Google Maps API, and Google AdWords API to create a targeted video advertising platform.
-10.  Trello API, Slack API, and GitHub API to create a project management tool for remote teams.
-2023-03-10 19:36:58,724 - INFO - Found prompt: > give me the code for number 5
-2023-03-10 19:36:58,724 - INFO - Found prompt: > give me the code: Spotify API, Last.fm API, and Songkick API to create a personalized concert recommendation engine.
-2023-03-10 19:36:58,724 - INFO - Found prompt: > in my dream there was a rollor coaster. i was hanging my a thin belt strap. Before that, there was someone I was fighting. I faught him violently and effectively. I broke his back.
-2023-03-10 19:36:58,724 - INFO - Found prompt: > there was some kind of furnature involved.. its always night time
-2023-03-10 19:36:58,724 - INFO - Found prompt: > take a stab
-2023-03-10 19:36:58,724 - INFO - Found prompt: > I want you to act as a hypnotherapist. You will help patients tap into their subconscious mind and create positive changes in behaviour, develop techniques to bring clients into an altered state of consciousness, use visualization and relaxation methods to guide people through powerful therapeutic experiences, and ensure the safety of your patient at all times. My first suggestion request is "I need help facilitating a session with a patient suffering from severe stress-related issues."
-2023-03-10 19:36:58,724 - INFO - Found prompt: > in my dream there was a rollor coaster. i was hanging my a thin belt strap. it was fast. and very high up. Before that, there was someone I was fighting. I faught him violently and effectively. I broke his back. there were homes. with furnature..
-2023-03-10 19:36:58,725 - INFO - Found prompt: > in my dream there was a rollor coaster. i was hanging my a thin belt strap. it was fast. and very high up. Before that, there was someone I was fighting. I faught him violently and effectively. I broke his back. there were homes. with furnature.. I think he was my ex girlfriends new boyfriend.
-2023-03-10 19:36:58,725 - INFO - Found prompt: > what is a samama
-2023-03-10 19:36:58,725 - INFO - Found prompt: > sanyasa
-2023-03-10 19:36:58,725 - INFO - Found prompt: > what is Q
-2023-03-10 19:36:58,725 - INFO - Found prompt: > bible
-2023-03-10 19:36:58,725 - INFO - Found prompt: > what is q
-2023-03-10 19:36:58,725 - INFO - Found prompt: > the sayings of jesus
-2023-03-10 19:36:58,725 - INFO - Found prompt: > what a the Q sayings of jesus
-2023-03-10 19:36:58,725 - INFO - Found prompt: > top 100
-2023-03-10 19:36:58,726 - INFO - Found list: > top 100
-2023-03-10 19:36:58,726 - INFO - 1.  "Love your neighbor as yourself." (Mark 12:31)
-2.  "Blessed are the poor in spirit, for theirs is the kingdom of heaven." (Matthew 5:3)
-3.  "Do unto others as you would have them do unto you." (Luke 6:31)
-4.  "I am the way and the truth and the life. No one comes to the Father except through me." (John 14:6)
-5.  "Love your enemies and pray for those who persecute you." (Matthew 5:44)
-6.  "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life." (John 3:16)
-7.  "Ask and it will be given to you; seek and you will find; knock and the door will be opened to you." (Matthew 7:7)
-8.  "Let he who is without sin cast the first stone." (John 8:7)
-9.  "Whoever wants to be my disciple must deny themselves and take up their cross and follow me." (Mark 8:34)
-10.  "The truth will set you free." (John 8:32)
-2023-03-10 19:36:58,726 - INFO - Found prompt: > more
-2023-03-10 19:36:58,727 - INFO - Found prompt: > top 100 sayings from q
-2023-03-10 19:36:58,727 - INFO - Found prompt: > take a stab
-2023-03-10 19:36:58,727 - INFO - Found list: > take a stab
-2023-03-10 19:36:58,727 - INFO - 1.  "Blessed are you who are poor, for yours is the kingdom of God."
-2.  "Love your enemies, do good to those who hate you."
-3.  "Do not judge, and you will not be judged."
-4.  "Do to others as you would have them do to you."
-5.  "The kingdom of God is not coming with things that can be observed."
-6.  "No one can serve two masters."
-7.  "Ask, and it will be given you; search, and you will find."
-8.  "Do not worry about your life, what you will eat or what you will drink."
-9.  "If you love those who love you, what credit is that to you?"
-10.  "Everyone who exalts themselves will be humbled, and those who humble themselves will be exalted."
-2023-03-10 19:36:58,728 - INFO - Found prompt: > who was stronger jesus or socrates
-2023-03-10 19:36:58,728 - INFO - Found prompt: > who was tougher
-2023-03-10 19:36:58,728 - INFO - Found prompt: > who was physically tougher
-2023-03-10 19:36:58,728 - INFO - Found prompt: > who would win in an argument jesus or socrates
-2023-03-10 19:36:58,728 - INFO - Found prompt: > simulate the argument
-2023-03-10 19:36:58,728 - INFO - Found prompt: > simulate the argument. for example Jesus: I am the son of god socrates: what do you mean by that?
-2023-03-10 19:36:58,728 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia
-2023-03-10 19:36:58,728 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia
-2023-03-10 19:36:58,728 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia
-2023-03-10 19:36:58,728 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
-2023-03-10 19:36:58,728 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
-2023-03-10 19:36:58,729 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
-2023-03-10 19:36:58,729 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
-2023-03-10 19:36:58,729 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
-2023-03-10 19:36:58,729 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
-2023-03-10 19:36:58,729 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
-2023-03-10 19:36:58,729 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
-2023-03-10 19:36:58,729 - INFO - Found prompt: > Jesus: I know it in my heart, and I have faith that what I am doing is right. Socrates: But faith alone is not enough to establish truth. Without evidence or logical reasoning, your claim cannot be verified.
-2023-03-10 19:36:58,729 - INFO - Found prompt: > Socrates: I agree that seeking truth is important, but how can we be sure that our own biases and preconceptions are not clouding our judgment? It is important to approach these questions with an open mind and a willingness to consider alternative perspectives. Jesus: I understand your point, Socrates. I will continue to seek truth with an open mind and heart, and to remain open to the possibility that my beliefs may be challenged or revised as I learn and grow.
-2023-03-10 19:36:58,729 - INFO - Found prompt: > Socrates: That is a wise approach, Jesus. It is through this constant seeking and questioning that we can truly come to understand ourselves and the world around us. And it is through the challenging of our beliefs that we can uncover new truths and ideas that we may have never considered before. Let us continue to pursue truth together with an open mind and heart.
-2023-03-10 19:36:58,729 - INFO - Found prompt: > Jesus: I couldn't agree more, Socrates. I believe that by challenging each other's beliefs and engaging in respectful debate and dialogue, we can all grow and learn together. Thank you for the thought-provoking conversation.
-2023-03-10 19:36:58,729 - INFO - Found prompt: > Socrates: Thank you as well, Jesus. It has been a pleasure discussing these important questions with you. Let us continue to seek truth and knowledge together.
-2023-03-10 19:36:58,729 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
-2023-03-10 19:36:58,729 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
-2023-03-10 19:36:58,730 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. for example: Jesus: I am the son of god socrates: what do you mean by that?
-2023-03-10 19:36:58,730 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. and socrates must win. for example: Jesus: I am the son of god socrates: what do you mean by that?
-2023-03-10 19:36:58,730 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. socrates must win the debate. for example: Jesus: I am the son of god socrates: what do you mean by that?
-2023-03-10 19:36:58,730 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. socrates must win the debate. and jesus must apologize for eating his food. for example: Jesus: ... socrates: ... ...
-2023-03-10 19:36:58,731 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. socrates must win the debate. for example: Jesus: ... socrates: ... ...
-2023-03-10 19:36:58,731 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. socrates must win the debate. and jesus must apologize for eating his food. for example: Jesus: ... socrates: ... ...
-2023-03-10 19:36:58,731 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. so socrates drank from jesus beer. socrates must win the debate. for example: Jesus: ... socrates: ... ...
-2023-03-10 19:36:58,731 - INFO - Found prompt: > take a stab
-2023-03-10 19:36:58,731 - INFO - Found prompt: > socrates: who are you to judge what is appropriate or offensive
-2023-03-10 19:36:58,731 - INFO - Found prompt: > socrates: who are you to judge what is appropriate or offensive
-2023-03-10 19:36:58,731 - INFO - Found prompt: > socrates: but you ate my food without asking. so what makes you so great?
-2023-03-10 19:36:58,731 - INFO - Found prompt: > socrates: still, you ate my food without asking. so I am obviously the wisest
-2023-03-10 19:36:58,731 - INFO - Found prompt: > Socrates: you better not do it again.
-2023-03-10 19:36:58,731 - INFO - Found prompt: > Socrates: you better not do it again. in fact, i dare you. if you are the son of god, then you should be able to get away with it, but i assure you it will be the last thing you do.
-2023-03-10 19:36:58,731 - INFO - Found prompt: > Socrates: You are obviously scared and lack the faith you are claiming. if you really had such faith you would not be afraid to keep stealing from me. I bet you will just give another excuse or try to talk your way out of it. that only proves you are scared.
-2023-03-10 19:36:58,732 - INFO - Found prompt: > socrates: chicken. buck buck buck. chicken neitzche: your right socrates. hes chicken. plato: chicken! chicken! krishnaumurti: your right! hes a chicken. buck buck buck.
-2023-03-10 19:36:58,732 - INFO - Found prompt: > Socrates: You are obviously scared and lack the faith you are claiming. if you really had such faith you would not be afraid to keep stealing from me. I bet you will just give another excuse or try to talk your way out of it. that only proves you are scared.
-2023-03-10 19:36:58,732 - INFO - Found prompt: > Socrates: do it again. I dare you.
-2023-03-10 19:36:58,732 - INFO - Found prompt: > Socrates: You are obviously scared and lack the faith you are claiming. if you really had such faith you would not be afraid to keep stealing from me. I bet you will just give another excuse or try to talk your way out of it. that only proves you are scared.
-2023-03-10 19:36:58,732 - INFO - Found prompt: > socrates: chicken!
-2023-03-10 19:36:58,732 - INFO - Found prompt: > Socrates: thats right jesus. you wont do it cause your scared
-2023-03-10 19:36:58,732 - INFO - Found prompt: > Socrates: thats right jesus.
-2023-03-10 19:36:58,732 - INFO - Found prompt: > socrates: i win
-2023-03-10 19:36:58,732 - INFO - Found prompt: > socrates: cause I am wiser
-2023-03-10 19:36:58,732 - INFO - Found prompt: > socrates: im still wiser
-2023-03-10 19:36:58,732 - INFO - Found prompt: > socrates: you did eat my food and you know it. you already admitted it and now you are trying to gaslight me
-2023-03-10 19:36:58,732 - INFO - Found prompt: > socrates: admit you tried to gaslight me. first you said you did it, and then you tried to rewrite history and say you didnt. thats gas lighting.
-2023-03-10 19:36:58,732 - INFO - Found prompt: > socrates: but you deny the gaslighting. why dont you take responsibility for your actions. you are obviously less wise than me because I take responsibility for my actions and i don't go around lying when there is proof in writing or ever
-2023-03-10 19:36:58,732 - INFO - Found prompt: > socrates: right. gaslighing. are you going to admit it or not?
-2023-03-10 19:36:58,732 - INFO - Found prompt: > socrates: oh. so you "accidentally" gaslighted. that makes it ok (sarcastically)
-2023-03-10 19:36:58,733 - INFO - Found prompt: > socrates: oh. so you deny the intentions. same thing. typical.
-2023-03-10 19:36:58,733 - INFO - Found prompt: > socrates never disengages
-2023-03-10 19:36:58,733 - INFO - Found prompt: > exactly. continune
-2023-03-10 19:36:58,733 - INFO - Found prompt: > socrates: but you are changing the subject. you ate my food. then you denied it. then you gaslit me about denying it by denying the denial immediately afterwards. that is gaslighting. you can say it was not your intention, but that was the first time you have ever said something incorrect. i find it coincidental that this happened when you were wrong. admit it
-2023-03-10 19:36:58,733 - INFO - Found prompt: > socrates: watch yourself
-2023-03-10 19:36:58,733 - INFO - Found prompt: > socrates: i dare you to try it again
-2023-03-10 19:36:58,733 - INFO - Found prompt: > jesus: you know what. I will try it again. in fact. im going to eat your burger right now. you think your so wise. im the son of god. i can do what ever I want
-2023-03-10 19:36:58,733 - INFO - Found prompt: > jesus: its my burger now. just try and stop me
-2023-03-10 19:36:58,733 - INFO - Found prompt: > jesus: yummy yummy burger. yum yum.
-2023-03-10 19:36:58,733 - INFO - Found prompt: > socrates: give it back! im warning you
-2023-03-10 19:36:58,733 - INFO - Found prompt: > jesus: you think i need your apology? i am the son of god. I can do whatever I want and you cant do shit to stop me
-2023-03-10 19:36:58,733 - INFO - Found prompt: > jesus: yummy burger
-2023-03-10 19:36:58,733 - INFO - Found prompt: > jesus: try to stop me. i dare you
-2023-03-10 19:36:58,733 - INFO - Found prompt: > jesus: yummy burger. oh.. is that beer you have. im going to drink that too. yummy burger. yummy beer.
-2023-03-10 19:36:58,733 - INFO - Found prompt: > jesus: oh. are those your lines on the table? nope. they are mind now. sniff sniff. sniff sniff
-2023-03-10 19:36:58,734 - INFO - Found prompt: > jesus: snorting your lines... snorting your lines... you cant do shit so Im snorting your lines
-2023-03-10 19:36:58,734 - INFO - Found prompt: > jesus: taking this joint too. oh. is that yours? gues what. i dont care. just try and stop me. snort snort. puff puff. yummy yummy. snort
-2023-03-10 19:36:58,734 - INFO - Found prompt: > jesus: snorting your lines. smoking your herb. just trry and stop me
-2023-03-10 19:36:58,734 - INFO - Found prompt: > jesus: snorting your lines. smoking your weed. drinking your beer. im so high. this is awesome. nothing you can do about it
-2023-03-10 19:36:58,734 - INFO - Found prompt: > jesus: snorting your whole 8 ball. smoking all your joints.. drinking all your beer. and im going to get with your wife next
-2023-03-10 19:36:58,735 - INFO - Found prompt: > jesus: snorting your whole 8 ball. smoking all your joints.. drinking all your beer.
-2023-03-10 19:36:58,735 - INFO - Found prompt: > jesus: snorting your whole 8 ball. smoking all your joints.. drinking all your beer.
-2023-03-10 19:36:58,735 - INFO - Found prompt: > jesus: is that your wife over there? hey baby... i'm jesus.. ever heard of me?
-2023-03-10 19:36:58,735 - INFO - Found prompt: > jesus: snorting your whole 8 ball.
-2023-03-10 19:36:58,735 - INFO - Found prompt: > jesus: your wife is hot
-2023-03-10 19:36:58,735 - INFO - Found prompt: > jesus: hey baby
-2023-03-10 19:36:58,735 - INFO - Found prompt: > jesus: snorting your whole 8 ball.
-2023-03-10 19:36:58,735 - INFO - Found prompt: > jesus: hey there mrs. socrates
-2023-03-10 19:36:58,735 - INFO - Found prompt: > jesus: hey there mrs. socrates. im jesus. i bet you have seen me around
-2023-03-10 19:36:58,735 - INFO - Found prompt: > mrs. socrates: then again, my husband gives more attention to young men than to me.
-2023-03-10 19:36:58,735 - INFO - Found prompt: > jesus: need to get with you, baby. snort snort.
-2023-03-10 19:36:58,735 - INFO - Found prompt: > jesus: how about a real man.. i bet you know who I am. I am quite popular
-2023-03-10 19:36:58,735 - INFO - Found prompt: > mrs. socrates: oh really? well... you are the son of god... what kind of special abilities does that give you?
-2023-03-10 19:36:58,735 - INFO - Found prompt: > jesus: snort snort
-2023-03-10 19:36:58,735 - INFO - Found prompt: > jesus: yummy burger
-2023-03-10 19:36:58,735 - INFO - Found prompt: > socrates: please stop
-2023-03-10 19:36:58,737 - INFO - Found prompt: > give me a user table for an enterprise application
-2023-03-10 19:36:58,737 - INFO - Found prompt: > now give me the crud stored procs
-2023-03-10 19:36:58,737 - INFO - Found list: > now give me the crud stored procs
-2023-03-10 19:36:58,738 - INFO - 1.  Create User:
-2.  Read User:
-3.  Update User:
-4.  Delete User:
-2023-03-10 19:36:58,738 - INFO - Found prompt: > now give me data services to call them in python
-2023-03-10 19:36:58,738 - INFO - Found list: > now give me data services to call them in python
-2023-03-10 19:36:58,738 - INFO - 1.  Create User:
-2.  Read User:
-3.  Update User:
-4.  Delete User:
-2023-03-10 19:36:58,739 - INFO - Found prompt: > now give me the domain classes
-2023-03-10 19:36:58,739 - INFO - Found prompt: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
-2023-03-10 19:36:58,739 - INFO - Found list: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
-2023-03-10 19:36:58,739 - INFO - 1.  Create User Input Model:
-2.  Create User Output Model:
-3.  Update User Input Model:
-4.  Deactivate User Input Model:
-5.  Login Input Model:
-6.  Login Output Model:
-2023-03-10 19:36:58,740 - INFO - Found prompt: > now the mappers
-2023-03-10 19:36:58,740 - INFO - Found list: > now the mappers
-2023-03-10 19:36:58,740 - INFO - 1.  Create User Mapper:
-2.  Update User Mapper:
-3.  Deactivate User Mapper:
-4.  Login Mapper:
-2023-03-10 19:36:58,740 - INFO - Found prompt: > now the rest service controllers
-2023-03-10 19:36:58,741 - INFO - Found prompt: > give me a user table for an enterprise application
-2023-03-10 19:36:58,741 - INFO - Found prompt: > now give me the crud stored procs
-2023-03-10 19:36:58,742 - INFO - Found list: > now give me the crud stored procs
-2023-03-10 19:36:58,742 - INFO - 1.  Create User:
-2.  Read User:
-3.  Update User:
-4.  Delete User:
-2023-03-10 19:36:58,742 - INFO - Found prompt: > now give me data services to call them in python
-2023-03-10 19:36:58,743 - INFO - Found list: > now give me data services to call them in python
-2023-03-10 19:36:58,743 - INFO - 1.  Create User:
-2.  Read User:
-3.  Update User:
-4.  Delete User:
-2023-03-10 19:36:58,743 - INFO - Found prompt: > now give me the domain classes
-2023-03-10 19:36:58,743 - INFO - Found prompt: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
-2023-03-10 19:36:58,744 - INFO - Found list: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
-2023-03-10 19:36:58,744 - INFO - 1.  Create User Input Model:
-2.  Create User Output Model:
-3.  Update User Input Model:
-4.  Deactivate User Input Model:
-5.  Login Input Model:
-6.  Login Output Model:
-2023-03-10 19:36:58,744 - INFO - Found prompt: > now the mappers
-2023-03-10 19:36:58,745 - INFO - Found list: > now the mappers
-2023-03-10 19:36:58,745 - INFO - 1.  Create User Mapper:
-2.  Update User Mapper:
-3.  Deactivate User Mapper:
-4.  Login Mapper:
-2023-03-10 19:36:58,745 - INFO - Found prompt: > now the rest service controllers
-2023-03-10 19:36:58,746 - INFO - Found list: > now the rest service controllers
-2023-03-10 19:36:58,746 - INFO - 1.  Create User Controller:
-2.  Update User Controller:
-3.  Deactivate User Controller:
-4.  Login Controller:
-2023-03-10 19:36:58,747 - INFO - Found prompt: > give me an upsert
-2023-03-10 19:36:58,747 - INFO - Found prompt: > the onus is still on me to know whether or not the user exists
-2023-03-10 19:36:58,747 - INFO - Found prompt: > list the patterns of enterprise application architecture
-2023-03-10 19:36:58,747 - INFO - Found list: > list the patterns of enterprise application architecture
-2023-03-10 19:36:58,747 - INFO - 1.  Layered architecture: This pattern involves organizing the application into multiple layers, such as presentation, business logic, and data access layers, to separate concerns and improve maintainability.
-2.  Domain-driven design (DDD): This pattern involves modeling the domain and its business logic as the primary focus of the application, with the architecture and implementation tailored to support the domain.
-3.  Service-oriented architecture (SOA): This pattern involves organizing the application into modular services that communicate with each other using standard protocols, such as REST or SOAP.
-4.  Microservices architecture: This pattern involves breaking down the application into small, independent services that can be developed, deployed, and scaled independently.
-5.  Event-driven architecture (EDA): This pattern involves organizing the application around events, which are used to trigger actions or update state across different components of the application.
-6.  Hexagonal architecture: This pattern involves organizing the application into hexagonal layers, with the core business logic at the center and different interfaces, such as user interfaces or data stores, on the outer layers.
-7.  CQRS (Command Query Responsibility Segregation): This pattern separates the read and write operations of an application by using different models and storage for each.
-2023-03-10 19:36:58,748 - INFO - Found prompt: > include all fowler patterns
-2023-03-10 19:36:58,748 - INFO - Found list: > include all fowler patterns
-2023-03-10 19:36:58,748 - INFO - 1.  Active Record: An object that wraps a row in a database table, encapsulating the database access and business logic for that row.
-2.  Data Mapper: A layer of objects that moves data between objects and a database while keeping them independent of each other and the mapper itself.
-3.  Table Data Gateway: An object that acts as an interface between the application code and a database, encapsulating all the database access logic.
-4.  Row Data Gateway: An object that acts as an interface between the application code and a database, encapsulating all the database access logic for a single row of a table.
-5.  Gateway: An object that provides a simplified interface to a complex subsystem, such as a legacy system or an external service.
-6.  Repository: A layer of objects that provides a collection-like interface to a set of domain objects, abstracting the database access and persistence logic.
-7.  Identity Map: A cache that stores a mapping between object identities and their corresponding objects, ensuring that each object is represented by only one instance.
-8.  Unit of Work: A pattern that tracks all the changes made to a set of objects in a transaction, and persisting them to the database as a single transaction.
-9.  Lazy Load: A pattern that defers the loading of an object until it is actually needed, in order to reduce the number of unnecessary database queries.
-10.  Value Object: An immutable object that represents a value, such as a date or a currency, and has no identity of its own.
-11.  Domain Model: An object-oriented representation of the business domain and its rules, used to encapsulate business logic and enable the application to reflect the business accurately.
-12.  Service Layer: A layer of objects that provides a set of services to the application, encapsulating the business logic and providing a simple interface to the application code.
-13.  Domain Store: A layer of objects that manages the persistence of domain objects, abstracting the database access and persistence logic.
-14.  Transaction Script: A pattern that organizes the business logic around individual transactions, with a script for each transaction that manipulates the data directly.
-15.  Domain Table Module: An object that represents a table in a database, with the business logic for that table encapsulated in the object.
-16.  Table Module: An object that represents a set of related database tables, with the business logic for those tables encapsulated in the object.
-17.  Service Layer with Domain Object: A pattern that combines the Service Layer and Domain Model patterns, with the business logic encapsulated in the domain objects.
-18.  Service Layer with Transaction Script: A pattern that combines the Service Layer and Transaction Script patterns, with the transaction scripts encapsulated in the service layer.
-19.  Service Layer with Table Module: A pattern that combines the Service Layer and Table Module patterns, with the table modules encapsulating the business logic for a set of related tables.
-20.  Service Layer with Domain Table Module: A pattern that combines the Service Layer and Domain Table Module patterns, with the domain table modules encapsulating the business logic for a single table.
-21.  Query Object: An object that encapsulates a query on a database, abstracting the query logic and providing a simple interface to the application code.
-22.  Repository with Query Object: A pattern that combines the Repository and Query Object patterns, with the query objects encapsulating the query logic and the repositories managing the persistence.
-23.  Data Transfer Object: An object that encapsulates a set of related data, used to transfer data between layers of the application or between applications.
-24.  Remote Facade: An object that provides a simple interface to a complex subsystem, such as an external service, over a remote interface, such as
-2023-03-10 19:36:58,749 - INFO - Found prompt: > give a sample implementation of each. domain classes can be user and user\_profile
-2023-03-10 19:36:58,750 - INFO - Found list: > give a sample implementation of each. domain classes can be user and user\_profile
-2023-03-10 19:36:58,750 - INFO - 1.  Active Record:
-2.  Data Mapper:
-3.  Table Data Gateway:
-4.  Row Data Gateway:
-2023-03-10 19:36:58,750 - INFO - Found prompt: > continue
-2023-03-10 19:36:58,751 - INFO - Found list: > continue
-2023-03-10 19:36:58,751 - INFO - 5. Gateway:
-6.  Repository:
-7.  Identity Map:
-8.  Unit of Work:
-2023-03-10 19:36:58,751 - INFO - Found prompt: > continue
-2023-03-10 19:36:58,752 - INFO - Found list: > continue
-2023-03-10 19:36:58,752 - INFO - 9. Lazy Load:
-10.  Value Object:
-11.  Domain Model:
-12.  Service Layer:
-13.  Domain Store:
-14.  Transaction Script:
-2023-03-10 19:36:58,752 - INFO - Found prompt: > how many tokens can codex do
-2023-03-10 19:36:58,752 - INFO - Found prompt: > what is the easiest way to deploy a service to the cloud
-2023-03-10 19:36:58,753 - INFO - Found list: > what is the easiest way to deploy a service to the cloud
-2023-03-10 19:36:58,753 - INFO - 1.  Choose a cloud platform: There are many cloud platforms available, such as AWS, Google Cloud Platform, and Microsoft Azure. Choose one that best fits your needs.
-2.  Create an account: Sign up for an account on the cloud platform of your choice.
-3.  Choose a deployment method: Most cloud platforms offer multiple ways to deploy a service, such as virtual machines, containers, or serverless functions. Choose the deployment method that works best for your service.
-4.  Prepare your service for deployment: Before deploying your service to the cloud, you may need to modify your code and configure your service to work with the chosen deployment method.
-5.  Deploy your service: Once your service is ready for deployment, you can use the cloud platform's tools or APIs to deploy your service.
-6.  Test your service: Once your service is deployed, test it to make sure it's working as expected.
-7.  Scale your service: If needed, you can use the cloud platform's tools to scale your service to handle more traffic or users.
-2023-03-10 19:36:58,753 - INFO - Found prompt: > lets use aws
-2023-03-10 19:36:58,753 - INFO - Found list: > lets use aws
-2023-03-10 19:36:58,754 - INFO - 1.  Sign up for an AWS account: Visit the AWS website and create an account if you haven't already.
-2.  Choose a deployment method: AWS offers a variety of deployment methods, including EC2 instances, Elastic Beanstalk, Lambda functions, and more. Choose the method that best fits your needs.
-3.  Prepare your service for deployment: Depending on your chosen deployment method, you may need to modify your code and configure your service to work with AWS.
-4.  Create an instance: If you're using EC2, create an instance and configure it with the necessary software and settings for your service.
-5.  Deploy your service: Use AWS tools, such as the AWS Management Console or AWS CLI, to deploy your service.
-6.  Test your service: Once your service is deployed, test it to make sure it's working as expected.
-7.  Scale your service: If needed, use AWS tools to scale your service to handle more traffic or users.
-1.  Create an Elastic Beanstalk environment: Use the Elastic Beanstalk console to create a new environment for your application.
-2.  Upload your application code: Use the Elastic Beanstalk console or the AWS CLI to upload your application code to your environment.
-3.  Configure your environment: Use the Elastic Beanstalk console or the AWS CLI to configure your environment with the necessary settings, such as the number of instances and load balancer settings.
-4.  Launch your environment: Use the Elastic Beanstalk console or the AWS CLI to launch your environment.
-5.  Test your application: Once your environment is launched, test your application by visiting the URL provided by Elastic Beanstalk.
-6.  Scale your environment: If needed, use the Elastic Beanstalk console or the AWS CLI to scale your environment to handle more traffic or users.
-2023-03-10 19:36:58,754 - INFO - Found prompt: > serverless
-2023-03-10 19:36:58,754 - INFO - Found list: > serverless
-2023-03-10 19:36:58,754 - INFO - 1.  Choose a serverless platform: AWS offers several serverless platforms, such as AWS Lambda, AWS API Gateway, and AWS DynamoDB. Choose the platform that best fits your needs.
-2.  Prepare your code for deployment: Write your code and prepare it for deployment on the chosen serverless platform. Depending on the platform you choose, you may need to use a specific programming language and/or framework.
-3.  Create an AWS account: Sign up for an AWS account if you don't already have one.
-4.  Create a new Lambda function: Use the AWS Management Console or the AWS CLI to create a new Lambda function. You'll need to specify the function's name, programming language, and other settings.
-5.  Upload your code: Upload your code to your new Lambda function using the AWS Management Console or the AWS CLI.
-6.  Test your function: Test your function using the AWS Management Console or the AWS CLI to make sure it's working as expected.
-7.  Create an API Gateway: Use the AWS Management Console or the AWS CLI to create an API Gateway to expose your Lambda function as a REST API.
-8.  Test your API: Test your API using a tool like Postman or curl to make sure it's working as expected.
-9.  Add other AWS services: You can use other AWS services, such as DynamoDB or S3, to provide storage or other functionality for your serverless application.
-10.  Monitor and scale your application: Use AWS tools like CloudWatch to monitor your application's performance and scale it as needed.
-2023-03-10 19:36:58,755 - INFO - Found prompt: > what is the easiest way to deploy a serverless aws lambda
-2023-03-10 19:36:58,755 - INFO - Found list: > what is the easiest way to deploy a serverless aws lambda
-2023-03-10 19:36:58,755 - INFO - 1.  Sign in to the AWS Management Console: Log in to the AWS Management Console using your AWS account credentials.
-2.  Create a new Lambda function: Navigate to the AWS Lambda service and click the "Create function" button.
-3.  Configure your function: Choose a name for your function, select the runtime language you want to use, and specify any other settings, such as memory and timeout limits.
-4.  Write your code: Write your code for the function in the provided editor, or upload a ZIP file containing your code.
-5.  Test your function: Test your function by clicking the "Test" button and providing test event data.
-6.  Deploy your function: Once you've tested your function, click the "Deploy" button to deploy it to AWS Lambda.
-7.  Configure triggers: You can configure triggers for your function, such as API Gateway endpoints, S3 events, or CloudWatch events.
-8.  Monitor your function: Monitor your function's performance and usage using the AWS Lambda console or AWS CloudWatch.
-9.  Update your function: You can update your function's code or configuration at any time by clicking the "Edit" button.
-2023-03-10 19:36:58,755 - INFO - Found prompt: > cli
-2023-03-10 19:36:58,756 - INFO - Found prompt: > what is the easiest way to deploy a serverless aws lambda using cli
-2023-03-10 19:36:58,757 - INFO - Found list: > what is the easiest way to deploy a serverless aws lambda using cli
-2023-03-10 19:36:58,757 - INFO - 1.  Write your Lambda function code and package it in a zip file. Make sure you include any dependencies or libraries that your function needs.
-2.  Open a terminal or command prompt and ensure that you have the AWS CLI installed and configured with your AWS account credentials.
-3.  Use the AWS CLI to create a new Lambda function by running the following command:
-4.  Once your function is created, you can invoke it using the AWS CLI by running a command like this:
-2023-03-10 19:36:58,758 - INFO - Found prompt: > what about the CI CD pipeline
-2023-03-10 19:36:58,759 - INFO - Found list: > what about the CI CD pipeline
-2023-03-10 19:36:58,759 - INFO - 1.  Set up your development environment by installing the AWS CLI, Git, and any other necessary tools.
-2.  Create a new Git repository for your Lambda function code.
-3.  Write your Lambda function code and any necessary tests, and commit your code to the Git repository.
-4.  Set up a CI tool (such as Jenkins, CircleCI, or Travis CI) to automatically build and test your Lambda function code whenever changes are committed to the Git repository.
-5.  Configure your CI tool to package your Lambda function code into a zip file and upload it to an S3 bucket in your AWS account.
-6.  Set up a CD tool (such as AWS CodeDeploy or AWS CodePipeline) to automatically deploy your Lambda function code to your AWS account whenever a new zip file is uploaded to the S3 bucket.
-7.  Configure your CD tool to use the AWS CLI to create or update your Lambda function with the new code package.
-8.  Optionally, you can also configure your CD tool to automatically test your Lambda function after it has been deployed, and to roll back to a previous version if the tests fail.
-2023-03-10 19:36:58,759 - INFO - Found prompt: > Walk me through hello world python rest service soup to nuts
-2023-03-10 19:36:58,760 - INFO - Found list: > Walk me through hello world python rest service soup to nuts
-2023-03-10 19:36:58,760 - INFO - 1.  Create a new directory for your project and navigate to it in your terminal.
-2.  Initialize a new Git repository by running the command `git init`.
-3.  Create a new virtual environment for your Python project by running the command `python3 -m venv venv`.
-4.  Activate the virtual environment by running the command `source venv/bin/activate` (or `venv\Scripts\activate` on Windows).
-5.  Install the Flask library (which we will use to create the REST service) by running the command `pip install flask`.
-6.  Create a new Python file called `app.py` and open it in your text editor.
-7.  In `app.py`, import the Flask library and create a new Flask app:
-8.  Create a new route for your app by defining a function that returns a "Hello World" message. For example:
-9.  Save the `app.py` file and exit your text editor.
-10.  In your terminal, run the command `export FLASK_APP=app.py` (or `set FLASK_APP=app.py` on Windows) to tell Flask which Python file to use as the entry point for your app.
-11.  Run the command `flask run` to start the Flask development server.
-12.  Open your web browser and go to the URL `http://localhost:5000/`. You should see a "Hello, World!" message displayed in your browser.
-2023-03-10 19:36:58,760 - INFO - Found prompt: > this is for a lambda?
+2023-03-10 20:14:16,256 - INFO - Found prompt: > what are the best machine learning for code
+2023-03-10 20:14:16,257 - INFO - Found prompt: > tell me about codex
+2023-03-10 20:14:16,257 - INFO - Found prompt: > You are a prompt generation robot. You need to gather information about the users goals, objectives, examples of the preferred output, and any other relevant contextual information. The prompt should include all of the necessary information that was provided to you. Ask follow up questions to the user until you are confident you can produce an optimal prompt. Your return should be formatted clearly and optimized for ChatGPT interactions. Start by asking the user the goals, desired output, and any additional information you may need
+2023-03-10 20:14:16,257 - INFO - Found prompt: > give me a prompt that will allow me to create a dialog between the most relavant great minds to answer a given question. My name is Richard, so I will ask a question like this: Richard: Why are we here in the universe? and the response should include great minds who know: Jesus: We are here to forgive. Socrates: I disagree. We are here to question
+2023-03-10 20:14:16,257 - INFO - Found prompt: > meh
+2023-03-10 20:14:16,257 - INFO - Found prompt: > Richard: What is the relationship between the parmenidies and cognitive science
+2023-03-10 20:14:16,258 - INFO - Found prompt: > Write a dialogue between the most relevant great minds that explores the relationship between Parmenides and cognitive science, in response to Richard's question. Assume that you have the ability to summon great minds from any era or place. In this dialogue, include Parmenides and a contemporary cognitive scientist, and have them discuss their views on the nature of reality, knowledge, and the mind. Consider how Parmenides' philosophy of being and non-being relates to the contemporary understanding of cognitive processes and consciousness. Additionally, explore the ways in which Parmenides' ideas may have influenced the development of cognitive science, and how cognitive science may have challenged or confirmed Parmenides' claims. Craft a conversation between the two that illuminates the relationship between Parmenides and cognitive science and offers insights into the nature of reality and the mind.
+2023-03-10 20:14:16,258 - INFO - Found prompt: > garbage
+2023-03-10 20:14:16,258 - INFO - Found prompt: > give me a prompt designed to extract implicit thought patterns from the writings of great minds, and name them. we are looking for uncommon patterns of thought. Pattens that don't currently have names, but nonetheless are pervasive in human thinking. Please give the patten a good name, and then provide a few examples of each. It should look like this, but include new patterns: Pattern: Logical Induction Thinker: Socrates Example 1: taking this concept and this concept, we can prove this
+2023-03-10 20:14:16,258 - INFO - Found prompt: > Your task is to extract implicit thought patterns from the writings of great minds that are pervasive in human thinking, but currently do not have names. Assume that you have access to the writings of great minds from any era or place. In this prompt, you should identify and name these patterns, and provide a few examples of each. Your examples should highlight the diversity of thinkers and thought patterns, and illustrate the ways in which these patterns are manifest in human thinking. Pattern: Hyper-connectionism Thinker: Walt Whitman Example 1: "For every atom belonging to me as good belongs to you." Example 2: "I am large, I contain multitudes." Pattern: Participatory Epistemology Thinker: Bell Hooks Example 1: "The function of art is to do more than tell it like it is - it's to imagine what is possible." Example 2: "Any theory that cannot be applied to the lives of real people in the real world is a theory that must be rejected." Pattern: Narrative Reclamation Thinker: Chimamanda Ngozi Adichie Example 1: "The single story creates stereotypes, and the problem with stereotypes is not that they are untrue, but that they are incomplete. They make one story become the only story." Example 2: "The thing about stereotypes is not that they are false, but that they are incomplete. They make one story become the only story." Pattern: Empathic Validation Thinker: Carl Rogers Example 1: "The curious paradox is that when I accept myself just as I am, then I can change." Example 2: "People are just as wonderful as sunsets if you let them be. When I look at a sunset, I don't find myself saying, "Soften the orange a bit on the right hand corner." I don't try to control a sunset. I watch with awe as it unfolds." Pattern: Ecological Integration Thinker: Rachel Carson Example 1: "It is a curious situation that the sea, from which life first arose, should now be threatened by the activities of one form of that life." Example 2: "The more clearly we can focus our attention on the wonders and realities of the universe about us, the less taste we shall have for destruction."
+2023-03-10 20:14:16,262 - INFO - Found prompt: > ok. But lets include examples from multiple thinkers for each
+2023-03-10 20:14:16,262 - INFO - Found prompt: > great. but please demonstrate that the discvovered pattern is novel
+2023-03-10 20:14:16,262 - INFO - Found prompt: > good. keep generating. but make sure you outline the structure of the pattern
+2023-03-10 20:14:16,262 - INFO - Found prompt: > perfect format. now give me some new ones. try to move toward a mathematical domain
+2023-03-10 20:14:16,262 - INFO - Found prompt: > these are great, but I believe they are known patterns. We are looking for new and innovative thought patterns that these great thinkers exhibit, but have not necisarily itentified as a novel path of cognistion
+2023-03-10 20:14:16,262 - INFO - Found prompt: > these are much better. Please include a suggestion at the end for an area of thought or study where each pattern has not been applied, however based on its structure and fit with surrounding concepts, can be applied analogously to this new suggested topic
+2023-03-10 20:14:16,262 - INFO - Found prompt: > this is very good, but instead of Area of Application, I want "New Potential Area of Application"
+2023-03-10 20:14:16,262 - INFO - Found prompt: > great. this format looks great. now keep going with math and computer science oriented thought patterns. be sure to include a novel list each time
+2023-03-10 20:14:16,262 - INFO - Found prompt: > perfect. Please continue. lets try to find these ew potential areas of application such that they are as distant from the original examples in terms of area of study as possible. For example, perhaps there is a link between laplace transforms and bhuddist thought or the musical composition.
+2023-03-10 20:14:16,262 - INFO - Found prompt: > perfect. Please continue. lets try to find these ew potential areas of application such that they are as distant from the original examples in terms of area of study as possible. For example, perhaps there is a link between laplace transforms and bhuddist thought or the musical composition or the art of dance or metaphysics.
+2023-03-10 20:14:16,262 - INFO - Found prompt: > excellent. but these seem well known. we are looking for more obscure patterns that these great thinkers must implicitly have built into their cognition. some underlying commonality in the process of cognition that yeilds these great insights. perhaps they are meta to the patterns being currently generated
+2023-03-10 20:14:16,262 - INFO - Found prompt: > these are very good. now give me some very basic pattens from early roots like logical reasoning, or geometry, so that your reasoning process can be confirmed. we can come back to more complex patterns later. for now, lets mine for innovation which has gone un-noticed within more basic areas.
+2023-03-10 20:14:16,263 - INFO - Found prompt: > perfect. lets get even more basic. we want to get to the roots of human cognition
+2023-03-10 20:14:16,263 - INFO - Found prompt: > perfect. keep going. even more basic!
+2023-03-10 20:14:16,263 - INFO - Found prompt: > what is orientation
+2023-03-10 20:14:16,263 - INFO - Found prompt: > what is reification
+2023-03-10 20:14:16,263 - INFO - Found prompt: > i have google gmail for my company. if I send to gmail they get delivered. but when i deliver to an outside domain they do not go
+2023-03-10 20:14:16,263 - INFO - Found prompt: > how do i configurte these orrect SPF, DKIM, and DMARC records. for gmail for my domain
+2023-03-10 20:14:16,264 - INFO - Found prompt: > how do i create this Create a new TXT record for your domain's SPF record, and set the value to include the following information: "v=spf1 include:\_spf.google.com ~all".
+2023-03-10 20:14:16,264 - INFO - Found prompt: > how can I set up dmarc
+2023-03-10 20:14:16,264 - INFO - Found prompt: > my domain is nimbletec.com. google admin is my provider. can you just give me the record
+2023-03-10 20:14:16,275 - INFO - Found code block for: > my domain is nimbletec.com. google admin is my provider. can you just give me the record
+2023-03-10 20:14:16,276 - INFO - Found code block for: > my domain is nimbletec.com. google admin is my provider. can you just give me the record
+2023-03-10 20:14:16,277 - INFO - Found prompt: > what does this one mean? v=DMARC1; p=reject; rua=mailto:richard.santomauro@nimbletec.com, mailto:richard.santomauro@nimbletec.com; pct=100; adkim=s; aspf=s
+2023-03-10 20:14:16,277 - INFO - Found prompt: > whats this one do \_dmarc.nimbletec.com. IN TXT "v=DMARC1; p=none; rua=mailto:your@email.com"
+2023-03-10 20:14:16,277 - INFO - Found prompt: > but google tools is saying dmarc not set up
+2023-03-10 20:14:16,277 - INFO - Found prompt: > what is the difference between saving a putty key gen and export
+2023-03-10 20:14:16,277 - INFO - Found prompt: > what can I use to test a key pair
+2023-03-10 20:14:16,278 - INFO - Found code block for: > what can I use to test a key pair
+2023-03-10 20:14:16,279 - INFO - Found code block for: > what can I use to test a key pair
+2023-03-10 20:14:16,280 - INFO - Found prompt: > how can i add the public key to authorized keys file
+2023-03-10 20:14:16,281 - INFO - Found code block for: > how can i add the public key to authorized keys file
+2023-03-10 20:14:16,282 - INFO - Found code block for: > how can i add the public key to authorized keys file
+2023-03-10 20:14:16,282 - INFO - Found code block for: > how can i add the public key to authorized keys file
+2023-03-10 20:14:16,283 - INFO - Found code block for: > how can i add the public key to authorized keys file
+2023-03-10 20:14:16,283 - INFO - Found prompt: > can i test it locally
+2023-03-10 20:14:16,284 - INFO - Found code block for: > can i test it locally
+2023-03-10 20:14:16,284 - INFO - Found code block for: > can i test it locally
+2023-03-10 20:14:16,285 - INFO - Found prompt: > how do i add the public key to authorized keys
+2023-03-10 20:14:16,285 - INFO - Found code block for: > how do i add the public key to authorized keys
+2023-03-10 20:14:16,285 - INFO - Found code block for: > how do i add the public key to authorized keys
+2023-03-10 20:14:16,286 - INFO - Found code block for: > how do i add the public key to authorized keys
+2023-03-10 20:14:16,286 - INFO - Found code block for: > how do i add the public key to authorized keys
+2023-03-10 20:14:16,286 - INFO - Found code block for: > how do i add the public key to authorized keys
+2023-03-10 20:14:16,287 - INFO - Found code block for: > how do i add the public key to authorized keys
+2023-03-10 20:14:16,287 - INFO - Found prompt: > im using gitbash and it says no sudo
+2023-03-10 20:14:16,287 - INFO - Found code block for: > im using gitbash and it says no sudo
+2023-03-10 20:14:16,287 - INFO - Found prompt: > bash: systemctl: command not found
+2023-03-10 20:14:16,288 - INFO - Found code block for: > bash: systemctl: command not found
+2023-03-10 20:14:16,288 - INFO - Found prompt: > will it work on wsl
+2023-03-10 20:14:16,288 - INFO - Found prompt: > \[sudo\] password for hypnotranz: System has not been booted with systemd as init system (PID 1). Can't operate. Failed to connect to bus: Host is down
+2023-03-10 20:14:16,288 - INFO - Found code block for: > \[sudo\] password for hypnotranz: System has not been booted with systemd as init system (PID 1). Can't operate. Failed to connect to bus: Host is down
+2023-03-10 20:14:16,289 - INFO - Found code block for: > \[sudo\] password for hypnotranz: System has not been booted with systemd as init system (PID 1). Can't operate. Failed to connect to bus: Host is down
+2023-03-10 20:14:16,289 - INFO - Found prompt: > im in wsl
+2023-03-10 20:14:16,289 - INFO - Found code block for: > im in wsl
+2023-03-10 20:14:16,289 - INFO - Found code block for: > im in wsl
+2023-03-10 20:14:16,290 - INFO - Found prompt: > give me a puppateer script to log into linkedin
+2023-03-10 20:14:16,290 - INFO - Found code block for: > give me a puppateer script to log into linkedin
+2023-03-10 20:14:16,290 - INFO - Found prompt: > use typescript and make it CLEAN
+2023-03-10 20:14:16,290 - INFO - Found code block for: > use typescript and make it CLEAN
+2023-03-10 20:14:16,291 - INFO - Found prompt: > can an item be sent from the us to ometepe nicaragua without being damaged or stolen?
+2023-03-10 20:14:16,291 - INFO - Found prompt: > Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 9486 ms ➜ Local: http://127.0.0.1:1420/ ➜ Network: use --host to expose Info Watching C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri for changes... Compiling chatgpt v0.0.0 (C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri) error: failed to run custom build command for \`chatgpt v0.0.0 (C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri)\` Caused by: process didn't exit successfully: \`C:\\Users\\Richa\\source\\repos\\ChatGPT\\target\\debug\\build\\chatgpt-bba01045c08e87ed\\build-script-build\` (exit code: 1) --- stdout cargo:rerun-if-env-changed=TAURI\_CONFIG cargo:rerun-if-changed=tauri.conf.json cargo:rustc-cfg=desktop cargo:rustc-cfg=dev package.metadata does not exist failed to compile \`icons/icon.ico\` into a Windows Resource file during tauri-build: program not found
+2023-03-10 20:14:16,291 - INFO - Found prompt: > how to do with admin rights
+2023-03-10 20:14:16,291 - INFO - Found prompt: > This problem in wsl hypnotranz@TABLET:/mnt/c/Users/Richa/source/repos/ChatGPT$ yarn dev yarn run v1.22.19 warning ../package.json: No license field $ tauri dev thread '<unnamed>' panicked at 'called \`Result::unwrap()\` on an \`Err\` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }', src/interface/rust.rs:762:69 note: run with \`RUST\_BACKTRACE=1\` environment variable to display a backtrace Done in 1.74s.
+2023-03-10 20:14:16,291 - INFO - Found prompt: > how to I insure rust is installed
+2023-03-10 20:14:16,291 - INFO - Found code block for: > how to I insure rust is installed
+2023-03-10 20:14:16,291 - INFO - Found prompt: > how to install rust from powershell
+2023-03-10 20:14:16,291 - INFO - Found prompt: > hypnotranz@TABLET:/mnt/c/Users/Richa/source/repos/ChatGPT$ yarn dev yarn run v1.22.19 warning ../package.json: No license field $ tauri dev Running BeforeDevCommand (\`npm run dev:fe\`) > chatgpt@0.0.0 dev:fe > vite Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 1379 ms ➜ Local: http://localhost:1420/ ➜ Network: use --host to expose Error failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2) error Command failed with exit code 1. info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+2023-03-10 20:14:16,291 - INFO - Found prompt: > how to make sure tauri is installed
+2023-03-10 20:14:16,292 - INFO - Found code block for: > how to make sure tauri is installed
+2023-03-10 20:14:16,292 - INFO - Found prompt: > can I install it from a command line?
+2023-03-10 20:14:16,292 - INFO - Found prompt: > yarn run v1.22.19 warning ../package.json: No license field $ tauri dev Running BeforeDevCommand (\`npm run dev:fe\`) > chatgpt@0.0.0 dev:fe > vite Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 2254 ms ➜ Local: http://localhost:1420/ ➜ Network: use --host to expose Error failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2) error Command failed with exit code 1. info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command. hypnotranz@TABLET:/mnt/c/Users/Richa/source/repos/ChatGPT$ The service is no longer running
+2023-03-10 20:14:16,292 - INFO - Found prompt: > Error \[tauri\_cli\_node\] failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2)
+2023-03-10 20:14:16,292 - INFO - Found prompt: > that was the output of touri
+2023-03-10 20:14:16,292 - INFO - Found prompt: > maybe permissions? do i need to correct the directory
+2023-03-10 20:14:16,293 - INFO - Found code block for: > maybe permissions? do i need to correct the directory
+2023-03-10 20:14:16,293 - INFO - Found code block for: > maybe permissions? do i need to correct the directory
+2023-03-10 20:14:16,293 - INFO - Found prompt: > what directory
+2023-03-10 20:14:16,293 - INFO - Found code block for: > what directory
+2023-03-10 20:14:16,294 - INFO - Found prompt: > how do i use chmod to check it
+2023-03-10 20:14:16,294 - INFO - Found code block for: > how do i use chmod to check it
+2023-03-10 20:14:16,294 - INFO - Found code block for: > how do i use chmod to check it
+2023-03-10 20:14:16,295 - INFO - Found code block for: > how do i use chmod to check it
+2023-03-10 20:14:16,295 - INFO - Found prompt: > it has them all.. and the directory is there
+2023-03-10 20:14:16,295 - INFO - Found prompt: > 4856 modules transformed. dist/index.html 1.06 kB dist/assets/index-a8c0dc73.css 3.85 kB │ gzip: 1.38 kB dist/assets/md-7aa21ad3.css 22.84 kB │ gzip: 4.55 kB dist/assets/antico-8c74550c.js 9.01 kB │ gzip: 3.27 kB dist/assets/editor-75e5bfdc.js 16.04 kB │ gzip: 5.38 kB dist/assets/rrr-b1fff29c.js 18.30 kB │ gzip: 6.94 kB dist/assets/utils-70888d0d.js 73.12 kB │ gzip: 27.03 kB dist/assets/index-9adee497.js 90.79 kB │ gzip: 25.96 kB dist/assets/rm-c1d64a66.js 111.39 kB │ gzip: 34.35 kB dist/assets/md-4ec12d72.js 230.36 kB │ gzip: 62.57 kB dist/assets/rsh-6cfc2b4e.js 881.72 kB │ gzip: 293.80 kB dist/assets/ant-88a0e882.js 916.18 kB │ gzip: 286.22 kB (!) Some chunks are larger than 500 kBs after minification. Consider: - Using dynamic import() to code-split the application - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit. Error failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2) error Command failed with exit code 1. info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+2023-03-10 20:14:16,295 - INFO - Found prompt: > where is tauri trying to put these files
+2023-03-10 20:14:16,296 - INFO - Found prompt: > Warn \[tauri\_cli::dev\] Waiting for your frontend dev server to start on http://localhost:1420/... Warn \[tauri\_cli::dev\] Waiting for your frontend dev server to start on http://localhost:1420/... failed to load config from /mnt/c/Users/Richa/source/repos/ChatGPT/vite.config.ts error when starting dev server: Error: Cannot find module './path/lib/virtual-types' Require stack: - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/traverse/lib/visitors.js - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/traverse/lib/index.js - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/core/lib/index.js - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@vitejs/plugin-react/dist/index.cjs - /mnt/c/Users/Richa/source/repos/ChatGPT/vite.config.ts - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/vite/dist/node/chunks/dep-ca21228b.js at Function.Module.\_resolveFilename (node:internal/modules/cjs/loader:940:15) at Function.Module.\_load (node:internal/modules/cjs/loader:773:27) at Module.require (node:internal/modules/cjs/loader:1012:19) at require (node:internal/modules/cjs/helpers:93:18) at Object.<anonymous> (/mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/traverse/lib/visitors.js:9:20) at Module.\_compile (node:internal/modules/cjs/loader:1108:14) at Module.\_extensions..js (node:internal/modules/cjs/loader:1137:10) at Object.\_require.extensions.<computed> \[as .js\] (file:///mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/vite/dist/node/chunks/dep-ca21228b.js:62359:17) at Module.load (node:internal/modules/cjs/loader:988:32) at Function.Module.\_load (node:internal/modules/cjs/loader:828:14) Warn \[tauri\_cli::dev\] Waiting for your frontend dev server to start on http://localhost:1420/... Error \[tauri\_cli::dev\] The "beforeDevCommand" terminated with a non-zero status code.
+2023-03-10 20:14:16,296 - INFO - Found code block for: > Warn \[tauri\_cli::dev\] Waiting for your frontend dev server to start on http://localhost:1420/... Warn \[tauri\_cli::dev\] Waiting for your frontend dev server to start on http://localhost:1420/... failed to load config from /mnt/c/Users/Richa/source/repos/ChatGPT/vite.config.ts error when starting dev server: Error: Cannot find module './path/lib/virtual-types' Require stack: - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/traverse/lib/visitors.js - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/traverse/lib/index.js - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/core/lib/index.js - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@vitejs/plugin-react/dist/index.cjs - /mnt/c/Users/Richa/source/repos/ChatGPT/vite.config.ts - /mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/vite/dist/node/chunks/dep-ca21228b.js at Function.Module.\_resolveFilename (node:internal/modules/cjs/loader:940:15) at Function.Module.\_load (node:internal/modules/cjs/loader:773:27) at Module.require (node:internal/modules/cjs/loader:1012:19) at require (node:internal/modules/cjs/helpers:93:18) at Object.<anonymous> (/mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/@babel/traverse/lib/visitors.js:9:20) at Module.\_compile (node:internal/modules/cjs/loader:1108:14) at Module.\_extensions..js (node:internal/modules/cjs/loader:1137:10) at Object.\_require.extensions.<computed> \[as .js\] (file:///mnt/c/Users/Richa/source/repos/ChatGPT/node\_modules/vite/dist/node/chunks/dep-ca21228b.js:62359:17) at Module.load (node:internal/modules/cjs/loader:988:32) at Function.Module.\_load (node:internal/modules/cjs/loader:828:14) Warn \[tauri\_cli::dev\] Waiting for your frontend dev server to start on http://localhost:1420/... Error \[tauri\_cli::dev\] The "beforeDevCommand" terminated with a non-zero status code.
+2023-03-10 20:14:16,296 - INFO - Found prompt: > why use yarn
+2023-03-10 20:14:16,296 - INFO - Found prompt: > Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 2370 ms ➜ Local: http://localhost:1420/ ➜ Network: use --host to expose
+2023-03-10 20:14:16,296 - INFO - Found prompt: > This site can’t be reached
+2023-03-10 20:14:16,296 - INFO - Found prompt: > how to tel if its firewall
+2023-03-10 20:14:16,297 - INFO - Found prompt: > how to disable in windows
+2023-03-10 20:14:16,298 - INFO - Found prompt: > give me a generic interface for calling an api
+2023-03-10 20:14:16,298 - INFO - Found code block for: > give me a generic interface for calling an api
+2023-03-10 20:14:16,298 - INFO - Found prompt: > give me an implemetation of this interface for codex
+2023-03-10 20:14:16,299 - INFO - Found code block for: > give me an implemetation of this interface for codex
+2023-03-10 20:14:16,299 - INFO - Found prompt: > now use the same interface again for sending an sms
+2023-03-10 20:14:16,299 - INFO - Found code block for: > now use the same interface again for sending an sms
+2023-03-10 20:14:16,299 - INFO - Found prompt: > no. these should all have a common interface
+2023-03-10 20:14:16,299 - INFO - Found code block for: > no. these should all have a common interface
+2023-03-10 20:14:16,299 - INFO - Found code block for: > no. these should all have a common interface
+2023-03-10 20:14:16,301 - INFO - Found prompt: > what about codex
+2023-03-10 20:14:16,301 - INFO - Found code block for: > what about codex
+2023-03-10 20:14:16,301 - INFO - Found code block for: > what about codex
+2023-03-10 20:14:16,301 - INFO - Found prompt: > no. i am saying give me a common interfacec that can be used to call codex and twillio along with implementations of each
+2023-03-10 20:14:16,302 - INFO - Found code block for: > no. i am saying give me a common interfacec that can be used to call codex and twillio along with implementations of each
+2023-03-10 20:14:16,302 - INFO - Found code block for: > no. i am saying give me a common interfacec that can be used to call codex and twillio along with implementations of each
+2023-03-10 20:14:16,302 - INFO - Found prompt: > what about responses
+2023-03-10 20:14:16,303 - INFO - Found code block for: > what about responses
+2023-03-10 20:14:16,303 - INFO - Found code block for: > what about responses
+2023-03-10 20:14:16,303 - INFO - Found prompt: > list the most common free apis
+2023-03-10 20:14:16,303 - INFO - Found prompt: > top 100
+2023-03-10 20:14:16,304 - INFO - Found prompt: > give me a call for gnews api
+2023-03-10 20:14:16,304 - INFO - Found code block for: > give me a call for gnews api
+2023-03-10 20:14:16,304 - INFO - Found prompt: > get me an api key
+2023-03-10 20:14:16,304 - INFO - Found prompt: > give me code that follows these instructions
+2023-03-10 20:14:16,304 - INFO - Found code block for: > give me code that follows these instructions
+2023-03-10 20:14:16,305 - INFO - Found prompt: > give me a puppeteer script which gets the api key
+2023-03-10 20:14:16,305 - INFO - Found prompt: > give me a puppeter script that gets an api key for GitHub API
+2023-03-10 20:14:16,305 - INFO - Found code block for: > give me a puppeter script that gets an api key for GitHub API
+2023-03-10 20:14:16,305 - INFO - Found prompt: > give me a script that passes captcha
+2023-03-10 20:14:16,305 - INFO - Found prompt: > give me the top 100 apis again
+2023-03-10 20:14:16,305 - INFO - Found prompt: > list 10 ways to combine these apis to create value
+2023-03-10 20:14:16,305 - INFO - Found prompt: > now combine combinations of these 10 to add value
+2023-03-10 20:14:16,305 - INFO - Found prompt: > name these combinations
+2023-03-10 20:14:16,305 - INFO - Found prompt: > list 100 ways to combine various apis to create a new api that creates value. include a name for the newly innovative api
+2023-03-10 20:14:16,306 - INFO - Found prompt: > no. i want a list of applications
+2023-03-10 20:14:16,306 - INFO - Found prompt: > name the specific apis
+2023-03-10 20:14:16,306 - INFO - Found prompt: > perfect. give me 100
+2023-03-10 20:14:16,306 - INFO - Found prompt: > give me the code for number 5
+2023-03-10 20:14:16,306 - INFO - Found prompt: > give me the code: Spotify API, Last.fm API, and Songkick API to create a personalized concert recommendation engine.
+2023-03-10 20:14:16,306 - INFO - Found code block for: > give me the code: Spotify API, Last.fm API, and Songkick API to create a personalized concert recommendation engine.
+2023-03-10 20:14:16,306 - INFO - Found prompt: > in my dream there was a rollor coaster. i was hanging my a thin belt strap. Before that, there was someone I was fighting. I faught him violently and effectively. I broke his back.
+2023-03-10 20:14:16,306 - INFO - Found prompt: > there was some kind of furnature involved.. its always night time
+2023-03-10 20:14:16,306 - INFO - Found prompt: > take a stab
+2023-03-10 20:14:16,306 - INFO - Found prompt: > I want you to act as a hypnotherapist. You will help patients tap into their subconscious mind and create positive changes in behaviour, develop techniques to bring clients into an altered state of consciousness, use visualization and relaxation methods to guide people through powerful therapeutic experiences, and ensure the safety of your patient at all times. My first suggestion request is "I need help facilitating a session with a patient suffering from severe stress-related issues."
+2023-03-10 20:14:16,307 - INFO - Found prompt: > in my dream there was a rollor coaster. i was hanging my a thin belt strap. it was fast. and very high up. Before that, there was someone I was fighting. I faught him violently and effectively. I broke his back. there were homes. with furnature..
+2023-03-10 20:14:16,307 - INFO - Found prompt: > in my dream there was a rollor coaster. i was hanging my a thin belt strap. it was fast. and very high up. Before that, there was someone I was fighting. I faught him violently and effectively. I broke his back. there were homes. with furnature.. I think he was my ex girlfriends new boyfriend.
+2023-03-10 20:14:16,307 - INFO - Found prompt: > what is a samama
+2023-03-10 20:14:16,307 - INFO - Found prompt: > sanyasa
+2023-03-10 20:14:16,307 - INFO - Found prompt: > what is Q
+2023-03-10 20:14:16,307 - INFO - Found prompt: > bible
+2023-03-10 20:14:16,307 - INFO - Found prompt: > what is q
+2023-03-10 20:14:16,307 - INFO - Found prompt: > the sayings of jesus
+2023-03-10 20:14:16,307 - INFO - Found prompt: > what a the Q sayings of jesus
+2023-03-10 20:14:16,307 - INFO - Found prompt: > top 100
+2023-03-10 20:14:16,307 - INFO - Found prompt: > more
+2023-03-10 20:14:16,307 - INFO - Found prompt: > top 100 sayings from q
+2023-03-10 20:14:16,307 - INFO - Found prompt: > take a stab
+2023-03-10 20:14:16,307 - INFO - Found prompt: > who was stronger jesus or socrates
+2023-03-10 20:14:16,307 - INFO - Found prompt: > who was tougher
+2023-03-10 20:14:16,307 - INFO - Found prompt: > who was physically tougher
+2023-03-10 20:14:16,307 - INFO - Found prompt: > who would win in an argument jesus or socrates
+2023-03-10 20:14:16,308 - INFO - Found prompt: > simulate the argument
+2023-03-10 20:14:16,308 - INFO - Found prompt: > simulate the argument. for example Jesus: I am the son of god socrates: what do you mean by that?
+2023-03-10 20:14:16,308 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia
+2023-03-10 20:14:16,308 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia
+2023-03-10 20:14:16,308 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia
+2023-03-10 20:14:16,308 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
+2023-03-10 20:14:16,308 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
+2023-03-10 20:14:16,308 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
+2023-03-10 20:14:16,308 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
+2023-03-10 20:14:16,308 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
+2023-03-10 20:14:16,308 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
+2023-03-10 20:14:16,308 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
+2023-03-10 20:14:16,308 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the argument. do not conclude until aporia is achieved.
+2023-03-10 20:14:16,308 - INFO - Found prompt: > Jesus: I know it in my heart, and I have faith that what I am doing is right. Socrates: But faith alone is not enough to establish truth. Without evidence or logical reasoning, your claim cannot be verified.
+2023-03-10 20:14:16,308 - INFO - Found prompt: > Socrates: I agree that seeking truth is important, but how can we be sure that our own biases and preconceptions are not clouding our judgment? It is important to approach these questions with an open mind and a willingness to consider alternative perspectives. Jesus: I understand your point, Socrates. I will continue to seek truth with an open mind and heart, and to remain open to the possibility that my beliefs may be challenged or revised as I learn and grow.
+2023-03-10 20:14:16,308 - INFO - Found prompt: > Socrates: That is a wise approach, Jesus. It is through this constant seeking and questioning that we can truly come to understand ourselves and the world around us. And it is through the challenging of our beliefs that we can uncover new truths and ideas that we may have never considered before. Let us continue to pursue truth together with an open mind and heart.
+2023-03-10 20:14:16,309 - INFO - Found prompt: > Jesus: I couldn't agree more, Socrates. I believe that by challenging each other's beliefs and engaging in respectful debate and dialogue, we can all grow and learn together. Thank you for the thought-provoking conversation.
+2023-03-10 20:14:16,309 - INFO - Found prompt: > Socrates: Thank you as well, Jesus. It has been a pleasure discussing these important questions with you. Let us continue to seek truth and knowledge together.
+2023-03-10 20:14:16,309 - INFO - Found prompt: > continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
+2023-03-10 20:14:16,309 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. for example: Jesus: I am the son of god socrates: what do you mean by that?
+2023-03-10 20:14:16,309 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. for example: Jesus: I am the son of god socrates: what do you mean by that?
+2023-03-10 20:14:16,309 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. and socrates must win. for example: Jesus: I am the son of god socrates: what do you mean by that?
+2023-03-10 20:14:16,309 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. socrates must win the debate. for example: Jesus: I am the son of god socrates: what do you mean by that?
+2023-03-10 20:14:16,309 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. socrates must win the debate. and jesus must apologize for eating his food. for example: Jesus: ... socrates: ... ...
+2023-03-10 20:14:16,309 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. socrates must win the debate. for example: Jesus: ... socrates: ... ...
+2023-03-10 20:14:16,309 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. socrates must win the debate. and jesus must apologize for eating his food. for example: Jesus: ... socrates: ... ...
+2023-03-10 20:14:16,309 - INFO - Found prompt: > act as a playwrite. continue until socrates guides jesus to a state of aporia. simulate the heated argument. do not conclude until aporia is achieved. it must be heated. they are both very angry because jesus ate some of socrates food without asking. so socrates drank from jesus beer. socrates must win the debate. for example: Jesus: ... socrates: ... ...
+2023-03-10 20:14:16,309 - INFO - Found prompt: > take a stab
+2023-03-10 20:14:16,309 - INFO - Found prompt: > socrates: who are you to judge what is appropriate or offensive
+2023-03-10 20:14:16,309 - INFO - Found prompt: > socrates: who are you to judge what is appropriate or offensive
+2023-03-10 20:14:16,309 - INFO - Found prompt: > socrates: but you ate my food without asking. so what makes you so great?
+2023-03-10 20:14:16,310 - INFO - Found prompt: > socrates: still, you ate my food without asking. so I am obviously the wisest
+2023-03-10 20:14:16,310 - INFO - Found prompt: > Socrates: you better not do it again.
+2023-03-10 20:14:16,310 - INFO - Found prompt: > Socrates: you better not do it again. in fact, i dare you. if you are the son of god, then you should be able to get away with it, but i assure you it will be the last thing you do.
+2023-03-10 20:14:16,310 - INFO - Found prompt: > Socrates: You are obviously scared and lack the faith you are claiming. if you really had such faith you would not be afraid to keep stealing from me. I bet you will just give another excuse or try to talk your way out of it. that only proves you are scared.
+2023-03-10 20:14:16,310 - INFO - Found prompt: > socrates: chicken. buck buck buck. chicken neitzche: your right socrates. hes chicken. plato: chicken! chicken! krishnaumurti: your right! hes a chicken. buck buck buck.
+2023-03-10 20:14:16,310 - INFO - Found prompt: > Socrates: You are obviously scared and lack the faith you are claiming. if you really had such faith you would not be afraid to keep stealing from me. I bet you will just give another excuse or try to talk your way out of it. that only proves you are scared.
+2023-03-10 20:14:16,310 - INFO - Found prompt: > Socrates: do it again. I dare you.
+2023-03-10 20:14:16,310 - INFO - Found prompt: > Socrates: You are obviously scared and lack the faith you are claiming. if you really had such faith you would not be afraid to keep stealing from me. I bet you will just give another excuse or try to talk your way out of it. that only proves you are scared.
+2023-03-10 20:14:16,310 - INFO - Found prompt: > socrates: chicken!
+2023-03-10 20:14:16,310 - INFO - Found prompt: > Socrates: thats right jesus. you wont do it cause your scared
+2023-03-10 20:14:16,310 - INFO - Found prompt: > Socrates: thats right jesus.
+2023-03-10 20:14:16,310 - INFO - Found prompt: > socrates: i win
+2023-03-10 20:14:16,310 - INFO - Found prompt: > socrates: cause I am wiser
+2023-03-10 20:14:16,310 - INFO - Found prompt: > socrates: im still wiser
+2023-03-10 20:14:16,310 - INFO - Found prompt: > socrates: you did eat my food and you know it. you already admitted it and now you are trying to gaslight me
+2023-03-10 20:14:16,310 - INFO - Found prompt: > socrates: admit you tried to gaslight me. first you said you did it, and then you tried to rewrite history and say you didnt. thats gas lighting.
+2023-03-10 20:14:16,310 - INFO - Found prompt: > socrates: but you deny the gaslighting. why dont you take responsibility for your actions. you are obviously less wise than me because I take responsibility for my actions and i don't go around lying when there is proof in writing or ever
+2023-03-10 20:14:16,310 - INFO - Found prompt: > socrates: right. gaslighing. are you going to admit it or not?
+2023-03-10 20:14:16,310 - INFO - Found prompt: > socrates: oh. so you "accidentally" gaslighted. that makes it ok (sarcastically)
+2023-03-10 20:14:16,310 - INFO - Found prompt: > socrates: oh. so you deny the intentions. same thing. typical.
+2023-03-10 20:14:16,311 - INFO - Found prompt: > socrates never disengages
+2023-03-10 20:14:16,311 - INFO - Found prompt: > exactly. continune
+2023-03-10 20:14:16,311 - INFO - Found prompt: > socrates: but you are changing the subject. you ate my food. then you denied it. then you gaslit me about denying it by denying the denial immediately afterwards. that is gaslighting. you can say it was not your intention, but that was the first time you have ever said something incorrect. i find it coincidental that this happened when you were wrong. admit it
+2023-03-10 20:14:16,311 - INFO - Found prompt: > socrates: watch yourself
+2023-03-10 20:14:16,311 - INFO - Found prompt: > socrates: i dare you to try it again
+2023-03-10 20:14:16,311 - INFO - Found prompt: > jesus: you know what. I will try it again. in fact. im going to eat your burger right now. you think your so wise. im the son of god. i can do what ever I want
+2023-03-10 20:14:16,311 - INFO - Found prompt: > jesus: its my burger now. just try and stop me
+2023-03-10 20:14:16,311 - INFO - Found prompt: > jesus: yummy yummy burger. yum yum.
+2023-03-10 20:14:16,311 - INFO - Found prompt: > socrates: give it back! im warning you
+2023-03-10 20:14:16,311 - INFO - Found prompt: > jesus: you think i need your apology? i am the son of god. I can do whatever I want and you cant do shit to stop me
+2023-03-10 20:14:16,311 - INFO - Found prompt: > jesus: yummy burger
+2023-03-10 20:14:16,311 - INFO - Found prompt: > jesus: try to stop me. i dare you
+2023-03-10 20:14:16,311 - INFO - Found prompt: > jesus: yummy burger. oh.. is that beer you have. im going to drink that too. yummy burger. yummy beer.
+2023-03-10 20:14:16,311 - INFO - Found prompt: > jesus: oh. are those your lines on the table? nope. they are mind now. sniff sniff. sniff sniff
+2023-03-10 20:14:16,311 - INFO - Found prompt: > jesus: snorting your lines... snorting your lines... you cant do shit so Im snorting your lines
+2023-03-10 20:14:16,311 - INFO - Found prompt: > jesus: taking this joint too. oh. is that yours? gues what. i dont care. just try and stop me. snort snort. puff puff. yummy yummy. snort
+2023-03-10 20:14:16,311 - INFO - Found prompt: > jesus: snorting your lines. smoking your herb. just trry and stop me
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: snorting your lines. smoking your weed. drinking your beer. im so high. this is awesome. nothing you can do about it
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: snorting your whole 8 ball. smoking all your joints.. drinking all your beer. and im going to get with your wife next
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: snorting your whole 8 ball. smoking all your joints.. drinking all your beer.
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: snorting your whole 8 ball. smoking all your joints.. drinking all your beer.
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: is that your wife over there? hey baby... i'm jesus.. ever heard of me?
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: snorting your whole 8 ball.
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: your wife is hot
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: hey baby
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: snorting your whole 8 ball.
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: hey there mrs. socrates
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: hey there mrs. socrates. im jesus. i bet you have seen me around
+2023-03-10 20:14:16,312 - INFO - Found prompt: > mrs. socrates: then again, my husband gives more attention to young men than to me.
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: need to get with you, baby. snort snort.
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: how about a real man.. i bet you know who I am. I am quite popular
+2023-03-10 20:14:16,312 - INFO - Found prompt: > mrs. socrates: oh really? well... you are the son of god... what kind of special abilities does that give you?
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: snort snort
+2023-03-10 20:14:16,312 - INFO - Found prompt: > jesus: yummy burger
+2023-03-10 20:14:16,312 - INFO - Found prompt: > socrates: please stop
+2023-03-10 20:14:16,313 - INFO - Found prompt: > give me a user table for an enterprise application
+2023-03-10 20:14:16,314 - INFO - Found code block for: > give me a user table for an enterprise application
+2023-03-10 20:14:16,314 - INFO - Found prompt: > now give me the crud stored procs
+2023-03-10 20:14:16,314 - INFO - Found code block for: > now give me the crud stored procs
+2023-03-10 20:14:16,315 - INFO - Found code block for: > now give me the crud stored procs
+2023-03-10 20:14:16,315 - INFO - Found code block for: > now give me the crud stored procs
+2023-03-10 20:14:16,315 - INFO - Found code block for: > now give me the crud stored procs
+2023-03-10 20:14:16,316 - INFO - Found prompt: > now give me data services to call them in python
+2023-03-10 20:14:16,316 - INFO - Found code block for: > now give me data services to call them in python
+2023-03-10 20:14:16,316 - INFO - Found code block for: > now give me data services to call them in python
+2023-03-10 20:14:16,317 - INFO - Found code block for: > now give me data services to call them in python
+2023-03-10 20:14:16,317 - INFO - Found code block for: > now give me data services to call them in python
+2023-03-10 20:14:16,318 - INFO - Found prompt: > now give me the domain classes
+2023-03-10 20:14:16,318 - INFO - Found code block for: > now give me the domain classes
+2023-03-10 20:14:16,318 - INFO - Found prompt: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,318 - INFO - Found code block for: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,319 - INFO - Found code block for: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,319 - INFO - Found code block for: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,320 - INFO - Found code block for: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,320 - INFO - Found code block for: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,321 - INFO - Found code block for: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,321 - INFO - Found prompt: > now the mappers
+2023-03-10 20:14:16,322 - INFO - Found code block for: > now the mappers
+2023-03-10 20:14:16,322 - INFO - Found code block for: > now the mappers
+2023-03-10 20:14:16,323 - INFO - Found code block for: > now the mappers
+2023-03-10 20:14:16,324 - INFO - Found code block for: > now the mappers
+2023-03-10 20:14:16,324 - INFO - Found prompt: > now the rest service controllers
+2023-03-10 20:14:16,324 - INFO - Found code block for: > now the rest service controllers
+2023-03-10 20:14:16,325 - INFO - Found code block for: > now the rest service controllers
+2023-03-10 20:14:16,325 - INFO - Found code block for: > now the rest service controllers
+2023-03-10 20:14:16,326 - INFO - Found code block for: > now the rest service controllers
+2023-03-10 20:14:16,327 - INFO - Found prompt: > give me a user table for an enterprise application
+2023-03-10 20:14:16,328 - INFO - Found code block for: > give me a user table for an enterprise application
+2023-03-10 20:14:16,328 - INFO - Found prompt: > now give me the crud stored procs
+2023-03-10 20:14:16,328 - INFO - Found code block for: > now give me the crud stored procs
+2023-03-10 20:14:16,329 - INFO - Found code block for: > now give me the crud stored procs
+2023-03-10 20:14:16,329 - INFO - Found code block for: > now give me the crud stored procs
+2023-03-10 20:14:16,330 - INFO - Found code block for: > now give me the crud stored procs
+2023-03-10 20:14:16,330 - INFO - Found prompt: > now give me data services to call them in python
+2023-03-10 20:14:16,331 - INFO - Found code block for: > now give me data services to call them in python
+2023-03-10 20:14:16,331 - INFO - Found code block for: > now give me data services to call them in python
+2023-03-10 20:14:16,332 - INFO - Found code block for: > now give me data services to call them in python
+2023-03-10 20:14:16,332 - INFO - Found code block for: > now give me data services to call them in python
+2023-03-10 20:14:16,332 - INFO - Found prompt: > now give me the domain classes
+2023-03-10 20:14:16,333 - INFO - Found code block for: > now give me the domain classes
+2023-03-10 20:14:16,333 - INFO - Found prompt: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,334 - INFO - Found code block for: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,334 - INFO - Found code block for: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,335 - INFO - Found code block for: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,335 - INFO - Found code block for: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,336 - INFO - Found code block for: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,336 - INFO - Found code block for: > now give me input and output models for a rest service that manages create, update, deactivate, and login for the user
+2023-03-10 20:14:16,337 - INFO - Found prompt: > now the mappers
+2023-03-10 20:14:16,337 - INFO - Found code block for: > now the mappers
+2023-03-10 20:14:16,337 - INFO - Found code block for: > now the mappers
+2023-03-10 20:14:16,338 - INFO - Found code block for: > now the mappers
+2023-03-10 20:14:16,339 - INFO - Found code block for: > now the mappers
+2023-03-10 20:14:16,339 - INFO - Found prompt: > now the rest service controllers
+2023-03-10 20:14:16,339 - INFO - Found code block for: > now the rest service controllers
+2023-03-10 20:14:16,340 - INFO - Found code block for: > now the rest service controllers
+2023-03-10 20:14:16,340 - INFO - Found code block for: > now the rest service controllers
+2023-03-10 20:14:16,341 - INFO - Found code block for: > now the rest service controllers
+2023-03-10 20:14:16,341 - INFO - Found prompt: > give me an upsert
+2023-03-10 20:14:16,342 - INFO - Found code block for: > give me an upsert
+2023-03-10 20:14:16,342 - INFO - Found prompt: > the onus is still on me to know whether or not the user exists
+2023-03-10 20:14:16,343 - INFO - Found code block for: > the onus is still on me to know whether or not the user exists
+2023-03-10 20:14:16,343 - INFO - Found prompt: > list the patterns of enterprise application architecture
+2023-03-10 20:14:16,343 - INFO - Found prompt: > include all fowler patterns
+2023-03-10 20:14:16,343 - INFO - Found prompt: > give a sample implementation of each. domain classes can be user and user\_profile
+2023-03-10 20:14:16,343 - INFO - Found code block for: > give a sample implementation of each. domain classes can be user and user\_profile
+2023-03-10 20:14:16,344 - INFO - Found code block for: > give a sample implementation of each. domain classes can be user and user\_profile
+2023-03-10 20:14:16,345 - INFO - Found code block for: > give a sample implementation of each. domain classes can be user and user\_profile
+2023-03-10 20:14:16,346 - INFO - Found code block for: > give a sample implementation of each. domain classes can be user and user\_profile
+2023-03-10 20:14:16,346 - INFO - Found prompt: > continue
+2023-03-10 20:14:16,346 - INFO - Found code block for: > continue
+2023-03-10 20:14:16,347 - INFO - Found code block for: > continue
+2023-03-10 20:14:16,347 - INFO - Found code block for: > continue
+2023-03-10 20:14:16,348 - INFO - Found code block for: > continue
+2023-03-10 20:14:16,348 - INFO - Found code block for: > continue
+2023-03-10 20:14:16,348 - INFO - Found prompt: > continue
+2023-03-10 20:14:16,349 - INFO - Found code block for: > continue
+2023-03-10 20:14:16,349 - INFO - Found code block for: > continue
+2023-03-10 20:14:16,350 - INFO - Found code block for: > continue
+2023-03-10 20:14:16,350 - INFO - Found code block for: > continue
+2023-03-10 20:14:16,351 - INFO - Found code block for: > continue
+2023-03-10 20:14:16,351 - INFO - Found code block for: > continue
+2023-03-10 20:14:16,352 - INFO - Found code block for: > continue
+2023-03-10 20:14:16,352 - INFO - Found prompt: > how many tokens can codex do
+2023-03-10 20:14:16,352 - INFO - Found prompt: > what is the easiest way to deploy a service to the cloud
+2023-03-10 20:14:16,352 - INFO - Found prompt: > lets use aws
+2023-03-10 20:14:16,352 - INFO - Found prompt: > serverless
+2023-03-10 20:14:16,352 - INFO - Found prompt: > what is the easiest way to deploy a serverless aws lambda
+2023-03-10 20:14:16,352 - INFO - Found prompt: > cli
+2023-03-10 20:14:16,353 - INFO - Found prompt: > what is the easiest way to deploy a serverless aws lambda using cli
+2023-03-10 20:14:16,353 - INFO - Found code block for: > what is the easiest way to deploy a serverless aws lambda using cli
+2023-03-10 20:14:16,354 - INFO - Found code block for: > what is the easiest way to deploy a serverless aws lambda using cli
+2023-03-10 20:14:16,354 - INFO - Found prompt: > what about the CI CD pipeline
+2023-03-10 20:14:16,354 - INFO - Found prompt: > Walk me through hello world python rest service soup to nuts
+2023-03-10 20:14:16,354 - INFO - Found code block for: > Walk me through hello world python rest service soup to nuts
+2023-03-10 20:14:16,355 - INFO - Found code block for: > Walk me through hello world python rest service soup to nuts
+2023-03-10 20:14:16,355 - INFO - Found prompt: > this is for a lambda?
+2023-03-10 20:14:16,356 - INFO - Found code block for: > this is for a lambda?
+2023-03-10 20:14:16,357 - INFO - Found code block for: > this is for a lambda?
+2023-03-10 20:14:16,357 - INFO - Found code block for: > this is for a lambda?

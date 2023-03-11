@@ -1,7 +1,0 @@
-> how to do with admin rights
-1.  Press the Windows key to open the Start menu.
-2.  Type "cmd" or "PowerShell" into the search bar.
-3.  Right-click on the Command Prompt or PowerShell result and select "Run as administrator".
-4.  If prompted, enter your administrator password or confirm the action.
-5.  The Command Prompt or PowerShell window should now open with administrator privileges. You can use this window to perform administrative tasks, such as installing packages or modifying system files.
-

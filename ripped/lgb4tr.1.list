@@ -1,6 +1,0 @@
-> how do i configurte these orrect SPF, DKIM, and DMARC records. for gmail for my domain
-1.  Log in to your domain registrar or DNS provider account where you manage your domain's DNS settings.
-2.  Create a new TXT record for your domain's SPF record, and set the value to include the following information: "v=spf1 include:\_spf.google.com ~all".
-3.  Create a new TXT record for your domain's DKIM record, and set the value to the public key that you can find in your Gmail account's DKIM settings.
-4.  Create a new DMARC record for your domain, and set the value to "v=DMARC1; p=none; rua=mailto:[your@email.com](mailto:your@email.com)". This record instructs email receivers to send DMARC reports to the email address you provide.
-

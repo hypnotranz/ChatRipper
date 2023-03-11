@@ -1,7 +1,0 @@
-> that was the output of touri
-1.  Make sure you are running Tauri in the correct directory: The error message suggests that Tauri is unable to locate the project output directory. Double-check that you are running Tauri in the correct directory and that the project is properly configured.
-2.  Check that all dependencies are installed: Make sure that all required dependencies are installed and up-to-date. You can check the project's dependencies by reviewing its `package.json` file and running `yarn install` to install any missing dependencies.
-3.  Try cleaning and rebuilding the project: Sometimes build artifacts or temporary files can cause issues with the build process. Try cleaning the project by running `yarn clean` and then rebuilding it by running `yarn build`.
-4.  Check your Rust installation: Make sure that Rust is properly installed and configured on your system. You can verify this by running `rustc --version` in your terminal.
-5.  Try running Tauri with verbose logging: You can try running the Tauri command with the `--verbose` flag to get more detailed output and help diagnose the issue. For example:
-

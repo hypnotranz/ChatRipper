@@ -1,5 +1,0 @@
-> Warn Waiting for your frontend dev server to start on http://localhost:1420/... VITE v4.1.4 ready in 9486 ms ➜ Local: http://127.0.0.1:1420/ ➜ Network: use --host to expose Info Watching C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri for changes... Compiling chatgpt v0.0.0 (C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri) error: failed to run custom build command for \`chatgpt v0.0.0 (C:\\Users\\Richa\\source\\repos\\ChatGPT\\src-tauri)\` Caused by: process didn't exit successfully: \`C:\\Users\\Richa\\source\\repos\\ChatGPT\\target\\debug\\build\\chatgpt-bba01045c08e87ed\\build-script-build\` (exit code: 1) --- stdout cargo:rerun-if-env-changed=TAURI\_CONFIG cargo:rerun-if-changed=tauri.conf.json cargo:rustc-cfg=desktop cargo:rustc-cfg=dev package.metadata does not exist failed to compile \`icons/icon.ico\` into a Windows Resource file during tauri-build: program not found
-1.  Open the Windows Command Prompt or PowerShell.
-2.  Run the following command to install the `binutils` package using the Chocolatey package manager:
-3.  Once `binutils` is installed, try rebuilding your project and see if the error is resolved.
-

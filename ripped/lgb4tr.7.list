@@ -1,8 +1,0 @@
-> how can i add the public key to authorized keys file
-1.  Log in to the remote server using your username and password.
-2.  Navigate to the .ssh directory on the remote server. If the directory does not exist, you can create it with the following command:
-3.  Open the authorized\_keys file in a text editor, using the following command:
-4.  Copy the contents of your public key file (usually the file ending with ".pub") from your local machine and paste them into the authorized\_keys file on the remote server.
-5.  Save the changes to the authorized\_keys file and exit the text editor.
-6.  Set the correct permissions for the authorized\_keys file with the following command:
-

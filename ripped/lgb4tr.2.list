@@ -1,8 +1,0 @@
-> how do i create this Create a new TXT record for your domain's SPF record, and set the value to include the following information: "v=spf1 include:\_spf.google.com ~all".
-1.  Log in to your domain registrar or DNS provider's account.
-2.  Navigate to the DNS management section of your domain settings.
-3.  Find the option to add a new DNS record and select TXT as the record type.
-4.  In the "Name" field, enter the name of the domain or subdomain that you want to create the SPF record for (e.g., yourdomain.com or mail.yourdomain.com).
-5.  In the "Value" field, enter the following SPF record: "v=spf1 include:\_spf.google.com ~all".
-6.  Save the changes to your DNS settings.
-

@@ -1,7 +1,0 @@
-> it has them all.. and the directory is there
-1.  Check that Rust is properly installed: Make sure that Rust is installed and configured correctly on your system. You can check your Rust installation by running `rustc --version` in your terminal. If Rust is not installed, you can download it from the official Rust website.
-2.  Check that Tauri is properly installed: Make sure that Tauri is installed and configured correctly on your system. You can check your Tauri installation by running `tauri --version` in your terminal. If Tauri is not installed, you can install it using `npm` or `yarn`:
-3.  Check that your Tauri project is properly configured: Make sure that your Tauri project is properly configured, including any necessary dependencies and build scripts. You can review the Tauri documentation or example projects for guidance on how to configure your project.
-4.  Try cleaning and rebuilding your project: Sometimes build artifacts or temporary files can cause issues with the build process. Try cleaning your project by running `yarn clean` and then rebuilding it by running `yarn build`.
-5.  Try running Tauri with verbose logging: You can try running the Tauri command with the `--verbose` flag to get more detailed output and help diagnose the issue. For example:
-

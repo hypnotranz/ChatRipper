@@ -1,8 +1,0 @@
-> but google tools is saying dmarc not set up
-1.  Check the spelling and syntax of the DMARC record to ensure that it's correct. Use a DMARC record syntax checker to verify that the DMARC record is valid.
-2.  Make sure that the DMARC record is published in the correct location in your DNS settings. The DMARC record should be published as a TXT record with the name "\_dmarc.yourdomain.com".
-3.  Check that the TTL (time-to-live) value for the DMARC record is not set too high, as this can cause delays in the record propagation.
-4.  Wait for up to 48 hours for the DMARC record to propagate fully. DMARC records can take some time to propagate across the internet, so it's important to be patient and wait for the changes to take effect.
-5.  Check that the DMARC record is not being overridden by any other conflicting DNS records. For example, if you have multiple TXT records with the same name, this can cause conflicts and prevent the DMARC record from being applied correctly.
-6.  Check that the domain specified in the DMARC record matches the domain that you are sending emails from. If the domains do not match, the DMARC record may not be applied correctly.
-

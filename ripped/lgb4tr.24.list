@@ -1,7 +1,0 @@
-> how to disable in windows
-1.  Click on the Windows Start menu button and type "firewall" in the search bar.
-2.  Click on the "Windows Defender Firewall" option that appears in the search results.
-3.  In the left pane of the Windows Defender Firewall window, click on the "Turn Windows Defender Firewall on or off" option.
-4.  Select the "Turn off Windows Defender Firewall (not recommended)" option for both the private and public network settings.
-5.  Click the "OK" button to save the changes and close the window.
-

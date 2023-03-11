@@ -1,7 +1,0 @@
-> can i test it locally
-1.  Open your terminal or command prompt.
-2.  Navigate to the directory where your private key is saved.
-3.  Use the following command to set the correct permissions for the private key file:
-4.  Use the following command to test the key pair:
-5.  If the key pair is working correctly, you should be able to log in to your local machine without being prompted for a password.
-

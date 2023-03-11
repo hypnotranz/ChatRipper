@@ -1,6 +1,0 @@
-> Error \[tauri\_cli\_node\] failed to get project out directory: failed to get cargo metadata: No such file or directory (os error 2)
-1.  Check that Rust is installed: Verify that Rust is installed on your system by running the `rustc --version` command in your terminal or command prompt. If Rust is not installed, you can download and install it from the official Rust website: [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
-2.  Check that the Tauri project is set up correctly: Review the Tauri documentation or project configuration to determine if any additional setup is required to build the project. Make sure that all required dependencies and configuration files are present and set up correctly.
-3.  Check for typos or syntax errors: Review the error message and any relevant code or configuration files for typos or syntax errors that could be causing the issue.
-4.  Try running Tauri with verbose logging: You can try running the Tauri command with the `--verbose` flag to get more detailed output and help diagnose the issue. For example:
-
